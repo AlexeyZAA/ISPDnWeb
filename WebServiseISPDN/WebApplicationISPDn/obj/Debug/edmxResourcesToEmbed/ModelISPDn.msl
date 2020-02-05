@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ISPDnBDSQLModelStoreContainer" CdmEntityContainer="ISPDnBDSQLEntities">
+    <EntitySetMapping Name="Actualnost">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.Actualnost)">
+        <MappingFragment StoreEntitySet="Actualnost">
+          <ScalarProperty Name="ActualnostID" ColumnName="ActualnostID" />
+          <ScalarProperty Name="ActualnostName" ColumnName="ActualnostName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CeliObrabotkiPD">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.CeliObrabotkiPD)">
+        <MappingFragment StoreEntitySet="CeliObrabotkiPD">
+          <ScalarProperty Name="CeliObrabotkiPDID" ColumnName="CeliObrabotkiPDID" />
+          <ScalarProperty Name="CeliObrabotkiName" ColumnName="CeliObrabotkiName" />
+          <ScalarProperty Name="CeliObrabotkiSelect" ColumnName="CeliObrabotkiSelect" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnHarakteristikIshod">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnHarakteristikIshod)">
+        <MappingFragment StoreEntitySet="ISPDnHarakteristikIshod">
+          <ScalarProperty Name="ISPDnHarakteristikIshodID" ColumnName="ISPDnHarakteristikIshodID" />
+          <ScalarProperty Name="ISPDnHarakteristikIshodName" ColumnName="ISPDnHarakteristikIshodName" />
+          <ScalarProperty Name="VidIshodHarakteristikID" ColumnName="VidIshodHarakteristikID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnIshodZashita">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnIshodZashita)">
+        <MappingFragment StoreEntitySet="ISPDnIshodZashita">
+          <ScalarProperty Name="ISPDnIshodZashitaID" ColumnName="ISPDnIshodZashitaID" />
+          <ScalarProperty Name="ISPDnIshodZashitaName" ColumnName="ISPDnIshodZashitaName" />
+          <ScalarProperty Name="IshodKofY1" ColumnName="IshodKofY1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnKategory">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnKategory)">
+        <MappingFragment StoreEntitySet="ISPDnKategory">
+          <ScalarProperty Name="ISPDnKategoryID" ColumnName="ISPDnKategoryID" />
+          <ScalarProperty Name="ISPDnKategoryName" ColumnName="ISPDnKategoryName" />
+          <ScalarProperty Name="ISPDnKategoryOpisanie" ColumnName="ISPDnKategoryOpisanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnKlass">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnKlass)">
+        <MappingFragment StoreEntitySet="ISPDnKlass">
+          <ScalarProperty Name="ISPDnKlassID" ColumnName="ISPDnKlassID" />
+          <ScalarProperty Name="ISPDnPrisvoenKlass" ColumnName="ISPDnPrisvoenKlass" />
+          <ScalarProperty Name="OpisanieKlass" ColumnName="OpisanieKlass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnObem">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnObem)">
+        <MappingFragment StoreEntitySet="ISPDnObem">
+          <ScalarProperty Name="ISPDnObemID" ColumnName="ISPDnObemID" />
+          <ScalarProperty Name="ISPDnObemOpisanie" ColumnName="ISPDnObemOpisanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnOperator">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnOperator)">
+        <MappingFragment StoreEntitySet="ISPDnOperator">
+          <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperatorID" />
+          <ScalarProperty Name="ISPDnOperatorName" ColumnName="ISPDnOperatorName" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+          <ScalarProperty Name="ISPDnKategoryID" ColumnName="ISPDnKategoryID" />
+          <ScalarProperty Name="ISPDnObemID" ColumnName="ISPDnObemID" />
+          <ScalarProperty Name="ISPDnKlassID" ColumnName="ISPDnKlassID" />
+          <ScalarProperty Name="ISPDnIshodZashitaID" ColumnName="ISPDnIshodZashitaID" />
+          <ScalarProperty Name="ISPDnTipSpecialID" ColumnName="ISPDnTipSpecialID" />
+          <ScalarProperty Name="ISPDnTipModeli" ColumnName="ISPDnTipModeli" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISPDnTipSpecial">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.ISPDnTipSpecial)">
+        <MappingFragment StoreEntitySet="ISPDnTipSpecial">
+          <ScalarProperty Name="ISPDnTipSpecialID" ColumnName="ISPDnTipSpecialID" />
+          <ScalarProperty Name="ISPDnTipSpecialName" ColumnName="ISPDnTipSpecialName" />
+          <ScalarProperty Name="ISPDnTipSpecialOpisanie" ColumnName="ISPDnTipSpecialOpisanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategoryPd">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.KategoryPd)">
+        <MappingFragment StoreEntitySet="KategoryPd">
+          <ScalarProperty Name="KategoryPdID" ColumnName="KategoryPdID" />
+          <ScalarProperty Name="KategoryPdName" ColumnName="KategoryPdName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategoryPdBio">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.KategoryPdBio)">
+        <MappingFragment StoreEntitySet="KategoryPdBio">
+          <ScalarProperty Name="KategoryPdBioID" ColumnName="KategoryPdBioID" />
+          <ScalarProperty Name="KategoryPdBioName" ColumnName="KategoryPdBioName" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+          <ScalarProperty Name="KategoryPdBioSelect" ColumnName="KategoryPdBioSelect" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategoryPdDop">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.KategoryPdDop)">
+        <MappingFragment StoreEntitySet="KategoryPdDop">
+          <ScalarProperty Name="KategoryPdDopID" ColumnName="KategoryPdDopID" />
+          <ScalarProperty Name="KategoryPdDopName" ColumnName="KategoryPdDopName" />
+          <ScalarProperty Name="KategoryPdDopSelect" ColumnName="KategoryPdDopSelect" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategoryPdSpec">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.KategoryPdSpec)">
+        <MappingFragment StoreEntitySet="KategoryPdSpec">
+          <ScalarProperty Name="KategoryPdSpecID" ColumnName="KategoryPdSpecID" />
+          <ScalarProperty Name="KategoryPdSpecName" ColumnName="KategoryPdSpecName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategorySubj">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.KategorySubj)">
+        <MappingFragment StoreEntitySet="KategorySubj">
+          <ScalarProperty Name="KategorySubjID" ColumnName="KategorySubjID" />
+          <ScalarProperty Name="KategorySubjName" ColumnName="KategorySubjName" />
+          <ScalarProperty Name="KategorySubjSelect" ColumnName="KategorySubjSelect" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MnogieISPDnSubj">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.MnogieISPDnSubj)">
+        <MappingFragment StoreEntitySet="MnogieISPDnSubj">
+          <ScalarProperty Name="KategorySubjID" ColumnName="KategorySubjID" />
+          <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperatorID" />
+          <ScalarProperty Name="MnogISPDnSubj" ColumnName="MnogISPDnSubj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MnogieOpasnUgrozIS">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.MnogieOpasnUgrozIS)">
+        <MappingFragment StoreEntitySet="MnogieOpasnUgrozIS">
+          <ScalarProperty Name="NazvanieUgrozID" ColumnName="NazvanieUgrozID" />
+          <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperatorID" />
+          <ScalarProperty Name="OpasnostUgrozID" ColumnName="OpasnostUgrozID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MnogieRealizUgroz">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.MnogieRealizUgroz)">
+        <MappingFragment StoreEntitySet="MnogieRealizUgroz">
+          <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperatorID" />
+          <ScalarProperty Name="NazvanieUgrozID" ColumnName="NazvanieUgrozID" />
+          <ScalarProperty Name="RealizationUgrozID" ColumnName="RealizationUgrozID" />
+          <ScalarProperty Name="KofRealization" ColumnName="KofRealization" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MnogieUgrozaActual">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.MnogieUgrozaActual)">
+        <MappingFragment StoreEntitySet="MnogieUgrozaActual">
+          <ScalarProperty Name="NazvanieUgrozID" ColumnName="NazvanieUgrozID" />
+          <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperatorID" />
+          <ScalarProperty Name="ActualnostID" ColumnName="ActualnostID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MnogieVerUgrozIS">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.MnogieVerUgrozIS)">
+        <MappingFragment StoreEntitySet="MnogieVerUgrozIS">
+          <ScalarProperty Name="NazvanieUgrozID" ColumnName="NazvanieUgrozID" />
+          <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperatorID" />
+          <ScalarProperty Name="VeroyatnostUgrozID" ColumnName="VeroyatnostUgrozID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NazvanieUgroz">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.NazvanieUgroz)">
+        <MappingFragment StoreEntitySet="NazvanieUgroz">
+          <ScalarProperty Name="NazvanieUgrozID" ColumnName="NazvanieUgrozID" />
+          <ScalarProperty Name="NazvanieUgrozName" ColumnName="NazvanieUgrozName" />
+          <ScalarProperty Name="VidUgrozID" ColumnName="VidUgrozID" />
+          <ScalarProperty Name="C1" ColumnName="C1" />
+          <ScalarProperty Name="C2" ColumnName="C2" />
+          <ScalarProperty Name="C3" ColumnName="C3" />
+          <ScalarProperty Name="C4" ColumnName="C4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OpasnostUgroz">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.OpasnostUgroz)">
+        <MappingFragment StoreEntitySet="OpasnostUgroz">
+          <ScalarProperty Name="OpasnostUgrozID" ColumnName="OpasnostUgrozID" />
+          <ScalarProperty Name="OpasnostUgrozName" ColumnName="OpasnostUgrozName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrgOperator">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.OrgOperator)">
+        <MappingFragment StoreEntitySet="OrgOperator">
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+          <ScalarProperty Name="OrgOperatorKratkName" ColumnName="OrgOperatorKratkName" />
+          <ScalarProperty Name="OrgOperatorFullName" ColumnName="OrgOperatorFullName" />
+          <ScalarProperty Name="OrgOperatorINN" ColumnName="OrgOperatorINN" />
+          <ScalarProperty Name="OrgOperatorRukovoditelName" ColumnName="OrgOperatorRukovoditelName" />
+          <ScalarProperty Name="OrgOperatorRukovoditelDolgn" ColumnName="OrgOperatorRukovoditelDolgn" />
+          <ScalarProperty Name="OrgOperatorAdress" ColumnName="OrgOperatorAdress" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OtdelOrg">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.OtdelOrg)">
+        <MappingFragment StoreEntitySet="OtdelOrg">
+          <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrgID" />
+          <ScalarProperty Name="OtdelOrgName" ColumnName="OtdelOrgName" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RabotnikiOrg">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.RabotnikiOrg)">
+        <MappingFragment StoreEntitySet="RabotnikiOrg">
+          <ScalarProperty Name="RabotnikiOrgID" ColumnName="RabotnikiOrgID" />
+          <ScalarProperty Name="RabotnikiOrgFio" ColumnName="RabotnikiOrgFio" />
+          <ScalarProperty Name="RabotnikiOrgDolgn" ColumnName="RabotnikiOrgDolgn" />
+          <ScalarProperty Name="RabotnikiOrgSelect" ColumnName="RabotnikiOrgSelect" />
+          <ScalarProperty Name="OrgOperatorID" ColumnName="OrgOperatorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RealizationUgroz">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.RealizationUgroz)">
+        <MappingFragment StoreEntitySet="RealizationUgroz">
+          <ScalarProperty Name="RealizationUgrozID" ColumnName="RealizationUgrozID" />
+          <ScalarProperty Name="RealizationUgrozName" ColumnName="RealizationUgrozName" />
+          <ScalarProperty Name="RealizationUgrozKof" ColumnName="RealizationUgrozKof" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VeroyatnostUgroz">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.VeroyatnostUgroz)">
+        <MappingFragment StoreEntitySet="VeroyatnostUgroz">
+          <ScalarProperty Name="VeroyatnostUgrozID" ColumnName="VeroyatnostUgrozID" />
+          <ScalarProperty Name="VeroyatnostUgrozName" ColumnName="VeroyatnostUgrozName" />
+          <ScalarProperty Name="OpisanieVeroyatnosti" ColumnName="OpisanieVeroyatnosti" />
+          <ScalarProperty Name="VeroyantnKofY2" ColumnName="VeroyantnKofY2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VidIshodHarakteristik">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.VidIshodHarakteristik)">
+        <MappingFragment StoreEntitySet="VidIshodHarakteristik">
+          <ScalarProperty Name="VidIshodHarakteristikID" ColumnName="VidIshodHarakteristikID" />
+          <ScalarProperty Name="VidIshodHarakteristikName" ColumnName="VidIshodHarakteristikName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VidUgroz">
+      <EntityTypeMapping TypeName="IsTypeOf(ISPDnBDSQLModel.VidUgroz)">
+        <MappingFragment StoreEntitySet="VidUgroz">
+          <ScalarProperty Name="VidUgrozID" ColumnName="VidUgrozID" />
+          <ScalarProperty Name="VidUgrozName" ColumnName="VidUgrozName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MnogieCeliObrabotkiISPDn" TypeName="ISPDnBDSQLModel.MnogieCeliObrabotkiISPDn" StoreEntitySet="MnogieCeliObrabotkiISPDn">
+      <EndProperty Name="CeliObrabotkiPD">
+        <ScalarProperty Name="CeliObrabotkiPDID" ColumnName="CeliObrabotkiPD_CeliObrabotkiPDID" />
+      </EndProperty>
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieCeliOtdel" TypeName="ISPDnBDSQLModel.MnogieCeliOtdel" StoreEntitySet="MnogieCeliOtdel">
+      <EndProperty Name="CeliObrabotkiPD">
+        <ScalarProperty Name="CeliObrabotkiPDID" ColumnName="CeliObrabotkiPD_CeliObrabotkiPDID" />
+      </EndProperty>
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieHarakteristikiIshod" TypeName="ISPDnBDSQLModel.MnogieHarakteristikiIshod" StoreEntitySet="MnogieHarakteristikiIshod">
+      <EndProperty Name="ISPDnHarakteristikIshod">
+        <ScalarProperty Name="ISPDnHarakteristikIshodID" ColumnName="ISPDnHarakteristikIshod_ISPDnHarakteristikIshodID" />
+      </EndProperty>
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieISPDnKategoryPD" TypeName="ISPDnBDSQLModel.MnogieISPDnKategoryPD" StoreEntitySet="MnogieISPDnKategoryPD">
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+      <EndProperty Name="KategoryPd">
+        <ScalarProperty Name="KategoryPdID" ColumnName="KategoryPd_KategoryPdID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieISPDnRabotniki" TypeName="ISPDnBDSQLModel.MnogieISPDnRabotniki" StoreEntitySet="MnogieISPDnRabotniki">
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+      <EndProperty Name="RabotnikiOrg">
+        <ScalarProperty Name="RabotnikiOrgID" ColumnName="RabotnikiOrg_RabotnikiOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoriSpecOtdel" TypeName="ISPDnBDSQLModel.MnogieKategoriSpecOtdel" StoreEntitySet="MnogieKategoriSpecOtdel">
+      <EndProperty Name="KategoryPdSpec">
+        <ScalarProperty Name="KategoryPdSpecID" ColumnName="KategoryPdSpec_KategoryPdSpecID" />
+      </EndProperty>
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoryBioOtdel" TypeName="ISPDnBDSQLModel.MnogieKategoryBioOtdel" StoreEntitySet="MnogieKategoryBioOtdel">
+      <EndProperty Name="KategoryPdBio">
+        <ScalarProperty Name="KategoryPdBioID" ColumnName="KategoryPdBio_KategoryPdBioID" />
+      </EndProperty>
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoryDopOtdel" TypeName="ISPDnBDSQLModel.MnogieKategoryDopOtdel" StoreEntitySet="MnogieKategoryDopOtdel">
+      <EndProperty Name="KategoryPdDop">
+        <ScalarProperty Name="KategoryPdDopID" ColumnName="KategoryPdDop_KategoryPdDopID" />
+      </EndProperty>
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoryPdBioISPDn" TypeName="ISPDnBDSQLModel.MnogieKategoryPdBioISPDn" StoreEntitySet="MnogieKategoryPdBioISPDn">
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+      <EndProperty Name="KategoryPdBio">
+        <ScalarProperty Name="KategoryPdBioID" ColumnName="KategoryPdBio_KategoryPdBioID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoryPdDopISPDn" TypeName="ISPDnBDSQLModel.MnogieKategoryPdDopISPDn" StoreEntitySet="MnogieKategoryPdDopISPDn">
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+      <EndProperty Name="KategoryPdDop">
+        <ScalarProperty Name="KategoryPdDopID" ColumnName="KategoryPdDop_KategoryPdDopID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoryPdOtdel" TypeName="ISPDnBDSQLModel.MnogieKategoryPdOtdel" StoreEntitySet="MnogieKategoryPdOtdel">
+      <EndProperty Name="KategoryPd">
+        <ScalarProperty Name="KategoryPdID" ColumnName="KategoryPd_KategoryPdID" />
+      </EndProperty>
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieKategoryPdSpecISPDn" TypeName="ISPDnBDSQLModel.MnogieKategoryPdSpecISPDn" StoreEntitySet="MnogieKategoryPdSpecISPDn">
+      <EndProperty Name="ISPDnOperator">
+        <ScalarProperty Name="ISPDnOperatorID" ColumnName="ISPDnOperator_ISPDnOperatorID" />
+      </EndProperty>
+      <EndProperty Name="KategoryPdSpec">
+        <ScalarProperty Name="KategoryPdSpecID" ColumnName="KategoryPdSpec_KategoryPdSpecID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieOtdelSubj" TypeName="ISPDnBDSQLModel.MnogieOtdelSubj" StoreEntitySet="MnogieOtdelSubj">
+      <EndProperty Name="KategorySubj">
+        <ScalarProperty Name="KategorySubjID" ColumnName="KategorySubj_KategorySubjID" />
+      </EndProperty>
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MnogieRabotnikiOtdel" TypeName="ISPDnBDSQLModel.MnogieRabotnikiOtdel" StoreEntitySet="MnogieRabotnikiOtdel">
+      <EndProperty Name="OtdelOrg">
+        <ScalarProperty Name="OtdelOrgID" ColumnName="OtdelOrg_OtdelOrgID" />
+      </EndProperty>
+      <EndProperty Name="RabotnikiOrg">
+        <ScalarProperty Name="RabotnikiOrgID" ColumnName="RabotnikiOrg_RabotnikiOrgID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

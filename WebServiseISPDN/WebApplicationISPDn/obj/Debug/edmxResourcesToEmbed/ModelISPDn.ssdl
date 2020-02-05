@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ISPDnBDSQLModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ISPDnBDSQLModelStoreContainer">
+    <EntitySet Name="Actualnost" EntityType="ISPDnBDSQLModel.Store.Actualnost" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CeliObrabotkiPD" EntityType="ISPDnBDSQLModel.Store.CeliObrabotkiPD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnHarakteristikIshod" EntityType="ISPDnBDSQLModel.Store.ISPDnHarakteristikIshod" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnIshodZashita" EntityType="ISPDnBDSQLModel.Store.ISPDnIshodZashita" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnKategory" EntityType="ISPDnBDSQLModel.Store.ISPDnKategory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnKlass" EntityType="ISPDnBDSQLModel.Store.ISPDnKlass" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnObem" EntityType="ISPDnBDSQLModel.Store.ISPDnObem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnOperator" EntityType="ISPDnBDSQLModel.Store.ISPDnOperator" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ISPDnTipSpecial" EntityType="ISPDnBDSQLModel.Store.ISPDnTipSpecial" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KategoryPd" EntityType="ISPDnBDSQLModel.Store.KategoryPd" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KategoryPdBio" EntityType="ISPDnBDSQLModel.Store.KategoryPdBio" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KategoryPdDop" EntityType="ISPDnBDSQLModel.Store.KategoryPdDop" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KategoryPdSpec" EntityType="ISPDnBDSQLModel.Store.KategoryPdSpec" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KategorySubj" EntityType="ISPDnBDSQLModel.Store.KategorySubj" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieISPDnSubj" EntityType="ISPDnBDSQLModel.Store.MnogieISPDnSubj" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieOpasnUgrozIS" EntityType="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieRealizUgroz" EntityType="ISPDnBDSQLModel.Store.MnogieRealizUgroz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieUgrozaActual" EntityType="ISPDnBDSQLModel.Store.MnogieUgrozaActual" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieVerUgrozIS" EntityType="ISPDnBDSQLModel.Store.MnogieVerUgrozIS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NazvanieUgroz" EntityType="ISPDnBDSQLModel.Store.NazvanieUgroz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OpasnostUgroz" EntityType="ISPDnBDSQLModel.Store.OpasnostUgroz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrgOperator" EntityType="ISPDnBDSQLModel.Store.OrgOperator" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OtdelOrg" EntityType="ISPDnBDSQLModel.Store.OtdelOrg" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RabotnikiOrg" EntityType="ISPDnBDSQLModel.Store.RabotnikiOrg" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RealizationUgroz" EntityType="ISPDnBDSQLModel.Store.RealizationUgroz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VeroyatnostUgroz" EntityType="ISPDnBDSQLModel.Store.VeroyatnostUgroz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VidIshodHarakteristik" EntityType="ISPDnBDSQLModel.Store.VidIshodHarakteristik" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VidUgroz" EntityType="ISPDnBDSQLModel.Store.VidUgroz" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieCeliObrabotkiISPDn" EntityType="ISPDnBDSQLModel.Store.MnogieCeliObrabotkiISPDn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieCeliOtdel" EntityType="ISPDnBDSQLModel.Store.MnogieCeliOtdel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieHarakteristikiIshod" EntityType="ISPDnBDSQLModel.Store.MnogieHarakteristikiIshod" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieISPDnKategoryPD" EntityType="ISPDnBDSQLModel.Store.MnogieISPDnKategoryPD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieISPDnRabotniki" EntityType="ISPDnBDSQLModel.Store.MnogieISPDnRabotniki" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoriSpecOtdel" EntityType="ISPDnBDSQLModel.Store.MnogieKategoriSpecOtdel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoryBioOtdel" EntityType="ISPDnBDSQLModel.Store.MnogieKategoryBioOtdel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoryDopOtdel" EntityType="ISPDnBDSQLModel.Store.MnogieKategoryDopOtdel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoryPdBioISPDn" EntityType="ISPDnBDSQLModel.Store.MnogieKategoryPdBioISPDn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoryPdDopISPDn" EntityType="ISPDnBDSQLModel.Store.MnogieKategoryPdDopISPDn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoryPdOtdel" EntityType="ISPDnBDSQLModel.Store.MnogieKategoryPdOtdel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieKategoryPdSpecISPDn" EntityType="ISPDnBDSQLModel.Store.MnogieKategoryPdSpecISPDn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieOtdelSubj" EntityType="ISPDnBDSQLModel.Store.MnogieOtdelSubj" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MnogieRabotnikiOtdel" EntityType="ISPDnBDSQLModel.Store.MnogieRabotnikiOtdel" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="MnogieUgrozaActual_FK00" Association="ISPDnBDSQLModel.Store.MnogieUgrozaActual_FK00">
+      <End Role="Actualnost" EntitySet="Actualnost" />
+      <End Role="MnogieUgrozaActual" EntitySet="MnogieUgrozaActual" />
+    </AssociationSet>
+    <AssociationSet Name="CeliObrabotkiPD_FK00" Association="ISPDnBDSQLModel.Store.CeliObrabotkiPD_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="CeliObrabotkiPD" EntitySet="CeliObrabotkiPD" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnHarakteristikIshod_FK00" Association="ISPDnBDSQLModel.Store.ISPDnHarakteristikIshod_FK00">
+      <End Role="VidIshodHarakteristik" EntitySet="VidIshodHarakteristik" />
+      <End Role="ISPDnHarakteristikIshod" EntitySet="ISPDnHarakteristikIshod" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK00" Association="ISPDnBDSQLModel.Store.ISPDnOperator_FK00">
+      <End Role="ISPDnIshodZashita" EntitySet="ISPDnIshodZashita" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK01" Association="ISPDnBDSQLModel.Store.ISPDnOperator_FK01">
+      <End Role="ISPDnKategory" EntitySet="ISPDnKategory" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK02" Association="ISPDnBDSQLModel.Store.ISPDnOperator_FK02">
+      <End Role="ISPDnKlass" EntitySet="ISPDnKlass" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK03" Association="ISPDnBDSQLModel.Store.ISPDnOperator_FK03">
+      <End Role="ISPDnObem" EntitySet="ISPDnObem" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK04" Association="ISPDnBDSQLModel.Store.ISPDnOperator_FK04">
+      <End Role="ISPDnTipSpecial" EntitySet="ISPDnTipSpecial" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK05" Association="ISPDnBDSQLModel.Store.ISPDnOperator_FK05">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieISPDnSubj_FK00" Association="ISPDnBDSQLModel.Store.MnogieISPDnSubj_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieISPDnSubj" EntitySet="MnogieISPDnSubj" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOpasnUgrozIS_FK00" Association="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieOpasnUgrozIS" EntitySet="MnogieOpasnUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRealizUgroz_FK00" Association="ISPDnBDSQLModel.Store.MnogieRealizUgroz_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieRealizUgroz" EntitySet="MnogieRealizUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieUgrozaActual_FK01" Association="ISPDnBDSQLModel.Store.MnogieUgrozaActual_FK01">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieUgrozaActual" EntitySet="MnogieUgrozaActual" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieVerUgrozIS_FK00" Association="ISPDnBDSQLModel.Store.MnogieVerUgrozIS_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieVerUgrozIS" EntitySet="MnogieVerUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="KategoryPdBio_FK00" Association="ISPDnBDSQLModel.Store.KategoryPdBio_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="KategoryPdBio" EntitySet="KategoryPdBio" />
+    </AssociationSet>
+    <AssociationSet Name="KategoryPdDop_FK00" Association="ISPDnBDSQLModel.Store.KategoryPdDop_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="KategoryPdDop" EntitySet="KategoryPdDop" />
+    </AssociationSet>
+    <AssociationSet Name="KategorySubj_FK00" Association="ISPDnBDSQLModel.Store.KategorySubj_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="KategorySubj" EntitySet="KategorySubj" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieISPDnSubj_FK01" Association="ISPDnBDSQLModel.Store.MnogieISPDnSubj_FK01">
+      <End Role="KategorySubj" EntitySet="KategorySubj" />
+      <End Role="MnogieISPDnSubj" EntitySet="MnogieISPDnSubj" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOpasnUgrozIS_FK01" Association="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS_FK01">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieOpasnUgrozIS" EntitySet="MnogieOpasnUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOpasnUgrozIS_FK02" Association="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS_FK02">
+      <End Role="OpasnostUgroz" EntitySet="OpasnostUgroz" />
+      <End Role="MnogieOpasnUgrozIS" EntitySet="MnogieOpasnUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRealizUgroz_FK01" Association="ISPDnBDSQLModel.Store.MnogieRealizUgroz_FK01">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieRealizUgroz" EntitySet="MnogieRealizUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRealizUgroz_FK02" Association="ISPDnBDSQLModel.Store.MnogieRealizUgroz_FK02">
+      <End Role="RealizationUgroz" EntitySet="RealizationUgroz" />
+      <End Role="MnogieRealizUgroz" EntitySet="MnogieRealizUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieUgrozaActual_FK02" Association="ISPDnBDSQLModel.Store.MnogieUgrozaActual_FK02">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieUgrozaActual" EntitySet="MnogieUgrozaActual" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieVerUgrozIS_FK01" Association="ISPDnBDSQLModel.Store.MnogieVerUgrozIS_FK01">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieVerUgrozIS" EntitySet="MnogieVerUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieVerUgrozIS_FK02" Association="ISPDnBDSQLModel.Store.MnogieVerUgrozIS_FK02">
+      <End Role="VeroyatnostUgroz" EntitySet="VeroyatnostUgroz" />
+      <End Role="MnogieVerUgrozIS" EntitySet="MnogieVerUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="NazvanieUgroz_FK00" Association="ISPDnBDSQLModel.Store.NazvanieUgroz_FK00">
+      <End Role="VidUgroz" EntitySet="VidUgroz" />
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="OtdelOrg_FK00" Association="ISPDnBDSQLModel.Store.OtdelOrg_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="RabotnikiOrg_FK00" Association="ISPDnBDSQLModel.Store.RabotnikiOrg_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="RabotnikiOrg" EntitySet="RabotnikiOrg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieCeliObrabotkiISPDn_CeliObrabotkiPD" Association="ISPDnBDSQLModel.Store.FK_MnogieCeliObrabotkiISPDn_CeliObrabotkiPD">
+      <End Role="CeliObrabotkiPD" EntitySet="CeliObrabotkiPD" />
+      <End Role="MnogieCeliObrabotkiISPDn" EntitySet="MnogieCeliObrabotkiISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieCeliObrabotkiISPDn_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieCeliObrabotkiISPDn_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieCeliObrabotkiISPDn" EntitySet="MnogieCeliObrabotkiISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieCeliOtdel_CeliObrabotkiPD" Association="ISPDnBDSQLModel.Store.FK_MnogieCeliOtdel_CeliObrabotkiPD">
+      <End Role="CeliObrabotkiPD" EntitySet="CeliObrabotkiPD" />
+      <End Role="MnogieCeliOtdel" EntitySet="MnogieCeliOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieCeliOtdel_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieCeliOtdel_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieCeliOtdel" EntitySet="MnogieCeliOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieHarakteristikiIshod_ISPDnHarakteristikIshod" Association="ISPDnBDSQLModel.Store.FK_MnogieHarakteristikiIshod_ISPDnHarakteristikIshod">
+      <End Role="ISPDnHarakteristikIshod" EntitySet="ISPDnHarakteristikIshod" />
+      <End Role="MnogieHarakteristikiIshod" EntitySet="MnogieHarakteristikiIshod" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieHarakteristikiIshod_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieHarakteristikiIshod_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieHarakteristikiIshod" EntitySet="MnogieHarakteristikiIshod" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieISPDnKategoryPD_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieISPDnKategoryPD_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieISPDnKategoryPD" EntitySet="MnogieISPDnKategoryPD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieISPDnKategoryPD_KategoryPd" Association="ISPDnBDSQLModel.Store.FK_MnogieISPDnKategoryPD_KategoryPd">
+      <End Role="KategoryPd" EntitySet="KategoryPd" />
+      <End Role="MnogieISPDnKategoryPD" EntitySet="MnogieISPDnKategoryPD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieISPDnRabotniki_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieISPDnRabotniki_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieISPDnRabotniki" EntitySet="MnogieISPDnRabotniki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieISPDnRabotniki_RabotnikiOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieISPDnRabotniki_RabotnikiOrg">
+      <End Role="RabotnikiOrg" EntitySet="RabotnikiOrg" />
+      <End Role="MnogieISPDnRabotniki" EntitySet="MnogieISPDnRabotniki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoriSpecOtdel_KategoryPdSpec" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoriSpecOtdel_KategoryPdSpec">
+      <End Role="KategoryPdSpec" EntitySet="KategoryPdSpec" />
+      <End Role="MnogieKategoriSpecOtdel" EntitySet="MnogieKategoriSpecOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoriSpecOtdel_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoriSpecOtdel_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieKategoriSpecOtdel" EntitySet="MnogieKategoriSpecOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryBioOtdel_KategoryPdBio" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryBioOtdel_KategoryPdBio">
+      <End Role="KategoryPdBio" EntitySet="KategoryPdBio" />
+      <End Role="MnogieKategoryBioOtdel" EntitySet="MnogieKategoryBioOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryBioOtdel_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryBioOtdel_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieKategoryBioOtdel" EntitySet="MnogieKategoryBioOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryDopOtdel_KategoryPdDop" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryDopOtdel_KategoryPdDop">
+      <End Role="KategoryPdDop" EntitySet="KategoryPdDop" />
+      <End Role="MnogieKategoryDopOtdel" EntitySet="MnogieKategoryDopOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryDopOtdel_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryDopOtdel_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieKategoryDopOtdel" EntitySet="MnogieKategoryDopOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdBioISPDn_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdBioISPDn_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieKategoryPdBioISPDn" EntitySet="MnogieKategoryPdBioISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdBioISPDn_KategoryPdBio" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdBioISPDn_KategoryPdBio">
+      <End Role="KategoryPdBio" EntitySet="KategoryPdBio" />
+      <End Role="MnogieKategoryPdBioISPDn" EntitySet="MnogieKategoryPdBioISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdDopISPDn_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdDopISPDn_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieKategoryPdDopISPDn" EntitySet="MnogieKategoryPdDopISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdDopISPDn_KategoryPdDop" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdDopISPDn_KategoryPdDop">
+      <End Role="KategoryPdDop" EntitySet="KategoryPdDop" />
+      <End Role="MnogieKategoryPdDopISPDn" EntitySet="MnogieKategoryPdDopISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdOtdel_KategoryPd" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdOtdel_KategoryPd">
+      <End Role="KategoryPd" EntitySet="KategoryPd" />
+      <End Role="MnogieKategoryPdOtdel" EntitySet="MnogieKategoryPdOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdOtdel_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdOtdel_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieKategoryPdOtdel" EntitySet="MnogieKategoryPdOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdSpecISPDn_ISPDnOperator" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdSpecISPDn_ISPDnOperator">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieKategoryPdSpecISPDn" EntitySet="MnogieKategoryPdSpecISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieKategoryPdSpecISPDn_KategoryPdSpec" Association="ISPDnBDSQLModel.Store.FK_MnogieKategoryPdSpecISPDn_KategoryPdSpec">
+      <End Role="KategoryPdSpec" EntitySet="KategoryPdSpec" />
+      <End Role="MnogieKategoryPdSpecISPDn" EntitySet="MnogieKategoryPdSpecISPDn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieOtdelSubj_KategorySubj" Association="ISPDnBDSQLModel.Store.FK_MnogieOtdelSubj_KategorySubj">
+      <End Role="KategorySubj" EntitySet="KategorySubj" />
+      <End Role="MnogieOtdelSubj" EntitySet="MnogieOtdelSubj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieOtdelSubj_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieOtdelSubj_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieOtdelSubj" EntitySet="MnogieOtdelSubj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieRabotnikiOtdel_OtdelOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieRabotnikiOtdel_OtdelOrg">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="MnogieRabotnikiOtdel" EntitySet="MnogieRabotnikiOtdel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MnogieRabotnikiOtdel_RabotnikiOrg" Association="ISPDnBDSQLModel.Store.FK_MnogieRabotnikiOtdel_RabotnikiOrg">
+      <End Role="RabotnikiOrg" EntitySet="RabotnikiOrg" />
+      <End Role="MnogieRabotnikiOtdel" EntitySet="MnogieRabotnikiOtdel" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Actualnost">
+    <Key>
+      <PropertyRef Name="ActualnostID" />
+    </Key>
+    <Property Name="ActualnostID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ActualnostName" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="CeliObrabotkiPD">
+    <Key>
+      <PropertyRef Name="CeliObrabotkiPDID" />
+    </Key>
+    <Property Name="CeliObrabotkiPDID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CeliObrabotkiName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="CeliObrabotkiSelect" Type="bit" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ISPDnHarakteristikIshod">
+    <Key>
+      <PropertyRef Name="ISPDnHarakteristikIshodID" />
+    </Key>
+    <Property Name="ISPDnHarakteristikIshodID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnHarakteristikIshodName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="VidIshodHarakteristikID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ISPDnIshodZashita">
+    <Key>
+      <PropertyRef Name="ISPDnIshodZashitaID" />
+    </Key>
+    <Property Name="ISPDnIshodZashitaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnIshodZashitaName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="IshodKofY1" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ISPDnKategory">
+    <Key>
+      <PropertyRef Name="ISPDnKategoryID" />
+    </Key>
+    <Property Name="ISPDnKategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnKategoryName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="ISPDnKategoryOpisanie" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ISPDnKlass">
+    <Key>
+      <PropertyRef Name="ISPDnKlassID" />
+    </Key>
+    <Property Name="ISPDnKlassID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnPrisvoenKlass" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OpisanieKlass" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="ISPDnObem">
+    <Key>
+      <PropertyRef Name="ISPDnObemID" />
+    </Key>
+    <Property Name="ISPDnObemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnObemOpisanie" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ISPDnOperator">
+    <Key>
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="ISPDnOperatorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnOperatorName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+    <Property Name="ISPDnKategoryID" Type="int" Nullable="true" />
+    <Property Name="ISPDnObemID" Type="int" Nullable="true" />
+    <Property Name="ISPDnKlassID" Type="int" Nullable="true" />
+    <Property Name="ISPDnIshodZashitaID" Type="int" Nullable="true" />
+    <Property Name="ISPDnTipSpecialID" Type="int" Nullable="true" />
+    <Property Name="ISPDnTipModeli" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="ISPDnTipSpecial">
+    <Key>
+      <PropertyRef Name="ISPDnTipSpecialID" />
+    </Key>
+    <Property Name="ISPDnTipSpecialID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISPDnTipSpecialName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="ISPDnTipSpecialOpisanie" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="KategoryPd">
+    <Key>
+      <PropertyRef Name="KategoryPdID" />
+    </Key>
+    <Property Name="KategoryPdID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoryPdName" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="KategoryPdBio">
+    <Key>
+      <PropertyRef Name="KategoryPdBioID" />
+    </Key>
+    <Property Name="KategoryPdBioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoryPdBioName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+    <Property Name="KategoryPdBioSelect" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KategoryPdDop">
+    <Key>
+      <PropertyRef Name="KategoryPdDopID" />
+    </Key>
+    <Property Name="KategoryPdDopID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoryPdDopName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="KategoryPdDopSelect" Type="bit" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="KategoryPdSpec">
+    <Key>
+      <PropertyRef Name="KategoryPdSpecID" />
+    </Key>
+    <Property Name="KategoryPdSpecID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoryPdSpecName" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="KategorySubj">
+    <Key>
+      <PropertyRef Name="KategorySubjID" />
+    </Key>
+    <Property Name="KategorySubjID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategorySubjName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="KategorySubjSelect" Type="bit" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="MnogieISPDnSubj">
+    <Key>
+      <PropertyRef Name="KategorySubjID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+      <PropertyRef Name="MnogISPDnSubj" />
+    </Key>
+    <Property Name="KategorySubjID" Type="int" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="MnogISPDnSubj" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieOpasnUgrozIS">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="int" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="OpasnostUgrozID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="MnogieRealizUgroz">
+    <Key>
+      <PropertyRef Name="ISPDnOperatorID" />
+      <PropertyRef Name="NazvanieUgrozID" />
+    </Key>
+    <Property Name="RealizationUgrozID" Type="int" Nullable="true" />
+    <Property Name="ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="NazvanieUgrozID" Type="int" Nullable="false" />
+    <Property Name="KofRealization" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="MnogieUgrozaActual">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="int" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="ActualnostID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="MnogieVerUgrozIS">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="int" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="VeroyatnostUgrozID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="NazvanieUgroz">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NazvanieUgrozName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="VidUgrozID" Type="int" Nullable="true" />
+    <Property Name="C1" Type="bit" Nullable="false" />
+    <Property Name="C2" Type="bit" Nullable="false" />
+    <Property Name="C3" Type="bit" Nullable="false" />
+    <Property Name="C4" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OpasnostUgroz">
+    <Key>
+      <PropertyRef Name="OpasnostUgrozID" />
+    </Key>
+    <Property Name="OpasnostUgrozID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OpasnostUgrozName" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="OrgOperator">
+    <Key>
+      <PropertyRef Name="OrgOperatorID" />
+    </Key>
+    <Property Name="OrgOperatorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrgOperatorKratkName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorFullName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorINN" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorRukovoditelName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorRukovoditelDolgn" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorAdress" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="UserID" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="OtdelOrg">
+    <Key>
+      <PropertyRef Name="OtdelOrgID" />
+    </Key>
+    <Property Name="OtdelOrgID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OtdelOrgName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="RabotnikiOrg">
+    <Key>
+      <PropertyRef Name="RabotnikiOrgID" />
+    </Key>
+    <Property Name="RabotnikiOrgID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RabotnikiOrgFio" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="RabotnikiOrgDolgn" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="RabotnikiOrgSelect" Type="bit" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="RealizationUgroz">
+    <Key>
+      <PropertyRef Name="RealizationUgrozID" />
+    </Key>
+    <Property Name="RealizationUgrozID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RealizationUgrozName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="RealizationUgrozKof" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="VeroyatnostUgroz">
+    <Key>
+      <PropertyRef Name="VeroyatnostUgrozID" />
+    </Key>
+    <Property Name="VeroyatnostUgrozID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VeroyatnostUgrozName" Type="nvarchar" Nullable="true" MaxLength="255" />
+    <Property Name="OpisanieVeroyatnosti" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="VeroyantnKofY2" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="VidIshodHarakteristik">
+    <Key>
+      <PropertyRef Name="VidIshodHarakteristikID" />
+    </Key>
+    <Property Name="VidIshodHarakteristikID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VidIshodHarakteristikName" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="VidUgroz">
+    <Key>
+      <PropertyRef Name="VidUgrozID" />
+    </Key>
+    <Property Name="VidUgrozID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VidUgrozName" Type="nvarchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="MnogieCeliObrabotkiISPDn">
+    <Key>
+      <PropertyRef Name="CeliObrabotkiPD_CeliObrabotkiPDID" />
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+    </Key>
+    <Property Name="CeliObrabotkiPD_CeliObrabotkiPDID" Type="int" Nullable="false" />
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieCeliOtdel">
+    <Key>
+      <PropertyRef Name="CeliObrabotkiPD_CeliObrabotkiPDID" />
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+    </Key>
+    <Property Name="CeliObrabotkiPD_CeliObrabotkiPDID" Type="int" Nullable="false" />
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieHarakteristikiIshod">
+    <Key>
+      <PropertyRef Name="ISPDnHarakteristikIshod_ISPDnHarakteristikIshodID" />
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+    </Key>
+    <Property Name="ISPDnHarakteristikIshod_ISPDnHarakteristikIshodID" Type="int" Nullable="false" />
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieISPDnKategoryPD">
+    <Key>
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      <PropertyRef Name="KategoryPd_KategoryPdID" />
+    </Key>
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="KategoryPd_KategoryPdID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieISPDnRabotniki">
+    <Key>
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      <PropertyRef Name="RabotnikiOrg_RabotnikiOrgID" />
+    </Key>
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="RabotnikiOrg_RabotnikiOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoriSpecOtdel">
+    <Key>
+      <PropertyRef Name="KategoryPdSpec_KategoryPdSpecID" />
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+    </Key>
+    <Property Name="KategoryPdSpec_KategoryPdSpecID" Type="int" Nullable="false" />
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryBioOtdel">
+    <Key>
+      <PropertyRef Name="KategoryPdBio_KategoryPdBioID" />
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+    </Key>
+    <Property Name="KategoryPdBio_KategoryPdBioID" Type="int" Nullable="false" />
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryDopOtdel">
+    <Key>
+      <PropertyRef Name="KategoryPdDop_KategoryPdDopID" />
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+    </Key>
+    <Property Name="KategoryPdDop_KategoryPdDopID" Type="int" Nullable="false" />
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryPdBioISPDn">
+    <Key>
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      <PropertyRef Name="KategoryPdBio_KategoryPdBioID" />
+    </Key>
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="KategoryPdBio_KategoryPdBioID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryPdDopISPDn">
+    <Key>
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      <PropertyRef Name="KategoryPdDop_KategoryPdDopID" />
+    </Key>
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="KategoryPdDop_KategoryPdDopID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryPdOtdel">
+    <Key>
+      <PropertyRef Name="KategoryPd_KategoryPdID" />
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+    </Key>
+    <Property Name="KategoryPd_KategoryPdID" Type="int" Nullable="false" />
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryPdSpecISPDn">
+    <Key>
+      <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      <PropertyRef Name="KategoryPdSpec_KategoryPdSpecID" />
+    </Key>
+    <Property Name="ISPDnOperator_ISPDnOperatorID" Type="int" Nullable="false" />
+    <Property Name="KategoryPdSpec_KategoryPdSpecID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieOtdelSubj">
+    <Key>
+      <PropertyRef Name="KategorySubj_KategorySubjID" />
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+    </Key>
+    <Property Name="KategorySubj_KategorySubjID" Type="int" Nullable="false" />
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieRabotnikiOtdel">
+    <Key>
+      <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      <PropertyRef Name="RabotnikiOrg_RabotnikiOrgID" />
+    </Key>
+    <Property Name="OtdelOrg_OtdelOrgID" Type="int" Nullable="false" />
+    <Property Name="RabotnikiOrg_RabotnikiOrgID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="MnogieUgrozaActual_FK00">
+    <End Role="Actualnost" Type="ISPDnBDSQLModel.Store.Actualnost" Multiplicity="0..1" />
+    <End Role="MnogieUgrozaActual" Type="ISPDnBDSQLModel.Store.MnogieUgrozaActual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actualnost">
+        <PropertyRef Name="ActualnostID" />
+      </Principal>
+      <Dependent Role="MnogieUgrozaActual">
+        <PropertyRef Name="ActualnostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CeliObrabotkiPD_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="CeliObrabotkiPD" Type="ISPDnBDSQLModel.Store.CeliObrabotkiPD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="CeliObrabotkiPD">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnHarakteristikIshod_FK00">
+    <End Role="VidIshodHarakteristik" Type="ISPDnBDSQLModel.Store.VidIshodHarakteristik" Multiplicity="0..1" />
+    <End Role="ISPDnHarakteristikIshod" Type="ISPDnBDSQLModel.Store.ISPDnHarakteristikIshod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VidIshodHarakteristik">
+        <PropertyRef Name="VidIshodHarakteristikID" />
+      </Principal>
+      <Dependent Role="ISPDnHarakteristikIshod">
+        <PropertyRef Name="VidIshodHarakteristikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK00">
+    <End Role="ISPDnIshodZashita" Type="ISPDnBDSQLModel.Store.ISPDnIshodZashita" Multiplicity="0..1" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnIshodZashita">
+        <PropertyRef Name="ISPDnIshodZashitaID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnIshodZashitaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK01">
+    <End Role="ISPDnKategory" Type="ISPDnBDSQLModel.Store.ISPDnKategory" Multiplicity="0..1" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnKategory">
+        <PropertyRef Name="ISPDnKategoryID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnKategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK02">
+    <End Role="ISPDnKlass" Type="ISPDnBDSQLModel.Store.ISPDnKlass" Multiplicity="0..1" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnKlass">
+        <PropertyRef Name="ISPDnKlassID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnKlassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK03">
+    <End Role="ISPDnObem" Type="ISPDnBDSQLModel.Store.ISPDnObem" Multiplicity="0..1" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnObem">
+        <PropertyRef Name="ISPDnObemID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnObemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK04">
+    <End Role="ISPDnTipSpecial" Type="ISPDnBDSQLModel.Store.ISPDnTipSpecial" Multiplicity="0..1" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnTipSpecial">
+        <PropertyRef Name="ISPDnTipSpecialID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnTipSpecialID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK05">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieISPDnSubj_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieISPDnSubj" Type="ISPDnBDSQLModel.Store.MnogieISPDnSubj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieISPDnSubj">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieOpasnUgrozIS_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieOpasnUgrozIS" Type="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieOpasnUgrozIS">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieRealizUgroz_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieRealizUgroz" Type="ISPDnBDSQLModel.Store.MnogieRealizUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieRealizUgroz">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieUgrozaActual_FK01">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieUgrozaActual" Type="ISPDnBDSQLModel.Store.MnogieUgrozaActual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieUgrozaActual">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieVerUgrozIS_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieVerUgrozIS" Type="ISPDnBDSQLModel.Store.MnogieVerUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieVerUgrozIS">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KategoryPdBio_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="KategoryPdBio" Type="ISPDnBDSQLModel.Store.KategoryPdBio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="KategoryPdBio">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KategoryPdDop_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="KategoryPdDop" Type="ISPDnBDSQLModel.Store.KategoryPdDop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="KategoryPdDop">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KategorySubj_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="KategorySubj" Type="ISPDnBDSQLModel.Store.KategorySubj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="KategorySubj">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieISPDnSubj_FK01">
+    <End Role="KategorySubj" Type="ISPDnBDSQLModel.Store.KategorySubj" Multiplicity="1" />
+    <End Role="MnogieISPDnSubj" Type="ISPDnBDSQLModel.Store.MnogieISPDnSubj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategorySubj">
+        <PropertyRef Name="KategorySubjID" />
+      </Principal>
+      <Dependent Role="MnogieISPDnSubj">
+        <PropertyRef Name="KategorySubjID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieOpasnUgrozIS_FK01">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.Store.NazvanieUgroz" Multiplicity="1" />
+    <End Role="MnogieOpasnUgrozIS" Type="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieOpasnUgrozIS">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieOpasnUgrozIS_FK02">
+    <End Role="OpasnostUgroz" Type="ISPDnBDSQLModel.Store.OpasnostUgroz" Multiplicity="0..1" />
+    <End Role="MnogieOpasnUgrozIS" Type="ISPDnBDSQLModel.Store.MnogieOpasnUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OpasnostUgroz">
+        <PropertyRef Name="OpasnostUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieOpasnUgrozIS">
+        <PropertyRef Name="OpasnostUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieRealizUgroz_FK01">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.Store.NazvanieUgroz" Multiplicity="1" />
+    <End Role="MnogieRealizUgroz" Type="ISPDnBDSQLModel.Store.MnogieRealizUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieRealizUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieRealizUgroz_FK02">
+    <End Role="RealizationUgroz" Type="ISPDnBDSQLModel.Store.RealizationUgroz" Multiplicity="0..1" />
+    <End Role="MnogieRealizUgroz" Type="ISPDnBDSQLModel.Store.MnogieRealizUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RealizationUgroz">
+        <PropertyRef Name="RealizationUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieRealizUgroz">
+        <PropertyRef Name="RealizationUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieUgrozaActual_FK02">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.Store.NazvanieUgroz" Multiplicity="1" />
+    <End Role="MnogieUgrozaActual" Type="ISPDnBDSQLModel.Store.MnogieUgrozaActual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieUgrozaActual">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieVerUgrozIS_FK01">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.Store.NazvanieUgroz" Multiplicity="1" />
+    <End Role="MnogieVerUgrozIS" Type="ISPDnBDSQLModel.Store.MnogieVerUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieVerUgrozIS">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieVerUgrozIS_FK02">
+    <End Role="VeroyatnostUgroz" Type="ISPDnBDSQLModel.Store.VeroyatnostUgroz" Multiplicity="0..1" />
+    <End Role="MnogieVerUgrozIS" Type="ISPDnBDSQLModel.Store.MnogieVerUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VeroyatnostUgroz">
+        <PropertyRef Name="VeroyatnostUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieVerUgrozIS">
+        <PropertyRef Name="VeroyatnostUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="NazvanieUgroz_FK00">
+    <End Role="VidUgroz" Type="ISPDnBDSQLModel.Store.VidUgroz" Multiplicity="0..1" />
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.Store.NazvanieUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VidUgroz">
+        <PropertyRef Name="VidUgrozID" />
+      </Principal>
+      <Dependent Role="NazvanieUgroz">
+        <PropertyRef Name="VidUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OtdelOrg_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="OtdelOrg">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RabotnikiOrg_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.Store.OrgOperator" Multiplicity="0..1" />
+    <End Role="RabotnikiOrg" Type="ISPDnBDSQLModel.Store.RabotnikiOrg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="RabotnikiOrg">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieCeliObrabotkiISPDn_CeliObrabotkiPD">
+    <End Role="CeliObrabotkiPD" Type="ISPDnBDSQLModel.Store.CeliObrabotkiPD" Multiplicity="1" />
+    <End Role="MnogieCeliObrabotkiISPDn" Type="ISPDnBDSQLModel.Store.MnogieCeliObrabotkiISPDn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CeliObrabotkiPD">
+        <PropertyRef Name="CeliObrabotkiPDID" />
+      </Principal>
+      <Dependent Role="MnogieCeliObrabotkiISPDn">
+        <PropertyRef Name="CeliObrabotkiPD_CeliObrabotkiPDID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieCeliObrabotkiISPDn_ISPDnOperator">
+    <End Role="MnogieCeliObrabotkiISPDn" Type="ISPDnBDSQLModel.Store.MnogieCeliObrabotkiISPDn" Multiplicity="*" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieCeliObrabotkiISPDn">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieCeliOtdel_CeliObrabotkiPD">
+    <End Role="CeliObrabotkiPD" Type="ISPDnBDSQLModel.Store.CeliObrabotkiPD" Multiplicity="1" />
+    <End Role="MnogieCeliOtdel" Type="ISPDnBDSQLModel.Store.MnogieCeliOtdel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CeliObrabotkiPD">
+        <PropertyRef Name="CeliObrabotkiPDID" />
+      </Principal>
+      <Dependent Role="MnogieCeliOtdel">
+        <PropertyRef Name="CeliObrabotkiPD_CeliObrabotkiPDID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieCeliOtdel_OtdelOrg">
+    <End Role="MnogieCeliOtdel" Type="ISPDnBDSQLModel.Store.MnogieCeliOtdel" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieCeliOtdel">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieHarakteristikiIshod_ISPDnHarakteristikIshod">
+    <End Role="ISPDnHarakteristikIshod" Type="ISPDnBDSQLModel.Store.ISPDnHarakteristikIshod" Multiplicity="1" />
+    <End Role="MnogieHarakteristikiIshod" Type="ISPDnBDSQLModel.Store.MnogieHarakteristikiIshod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnHarakteristikIshod">
+        <PropertyRef Name="ISPDnHarakteristikIshodID" />
+      </Principal>
+      <Dependent Role="MnogieHarakteristikiIshod">
+        <PropertyRef Name="ISPDnHarakteristikIshod_ISPDnHarakteristikIshodID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieHarakteristikiIshod_ISPDnOperator">
+    <End Role="MnogieHarakteristikiIshod" Type="ISPDnBDSQLModel.Store.MnogieHarakteristikiIshod" Multiplicity="*" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieHarakteristikiIshod">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieISPDnKategoryPD_ISPDnOperator">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieISPDnKategoryPD" Type="ISPDnBDSQLModel.Store.MnogieISPDnKategoryPD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieISPDnKategoryPD">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieISPDnKategoryPD_KategoryPd">
+    <End Role="MnogieISPDnKategoryPD" Type="ISPDnBDSQLModel.Store.MnogieISPDnKategoryPD" Multiplicity="*" />
+    <End Role="KategoryPd" Type="ISPDnBDSQLModel.Store.KategoryPd" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPd">
+        <PropertyRef Name="KategoryPdID" />
+      </Principal>
+      <Dependent Role="MnogieISPDnKategoryPD">
+        <PropertyRef Name="KategoryPd_KategoryPdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieISPDnRabotniki_ISPDnOperator">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieISPDnRabotniki" Type="ISPDnBDSQLModel.Store.MnogieISPDnRabotniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieISPDnRabotniki">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieISPDnRabotniki_RabotnikiOrg">
+    <End Role="MnogieISPDnRabotniki" Type="ISPDnBDSQLModel.Store.MnogieISPDnRabotniki" Multiplicity="*" />
+    <End Role="RabotnikiOrg" Type="ISPDnBDSQLModel.Store.RabotnikiOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="RabotnikiOrg">
+        <PropertyRef Name="RabotnikiOrgID" />
+      </Principal>
+      <Dependent Role="MnogieISPDnRabotniki">
+        <PropertyRef Name="RabotnikiOrg_RabotnikiOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoriSpecOtdel_KategoryPdSpec">
+    <End Role="KategoryPdSpec" Type="ISPDnBDSQLModel.Store.KategoryPdSpec" Multiplicity="1" />
+    <End Role="MnogieKategoriSpecOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoriSpecOtdel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPdSpec">
+        <PropertyRef Name="KategoryPdSpecID" />
+      </Principal>
+      <Dependent Role="MnogieKategoriSpecOtdel">
+        <PropertyRef Name="KategoryPdSpec_KategoryPdSpecID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoriSpecOtdel_OtdelOrg">
+    <End Role="MnogieKategoriSpecOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoriSpecOtdel" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieKategoriSpecOtdel">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryBioOtdel_KategoryPdBio">
+    <End Role="KategoryPdBio" Type="ISPDnBDSQLModel.Store.KategoryPdBio" Multiplicity="1" />
+    <End Role="MnogieKategoryBioOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoryBioOtdel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPdBio">
+        <PropertyRef Name="KategoryPdBioID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryBioOtdel">
+        <PropertyRef Name="KategoryPdBio_KategoryPdBioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryBioOtdel_OtdelOrg">
+    <End Role="MnogieKategoryBioOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoryBioOtdel" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryBioOtdel">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryDopOtdel_KategoryPdDop">
+    <End Role="KategoryPdDop" Type="ISPDnBDSQLModel.Store.KategoryPdDop" Multiplicity="1" />
+    <End Role="MnogieKategoryDopOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoryDopOtdel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPdDop">
+        <PropertyRef Name="KategoryPdDopID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryDopOtdel">
+        <PropertyRef Name="KategoryPdDop_KategoryPdDopID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryDopOtdel_OtdelOrg">
+    <End Role="MnogieKategoryDopOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoryDopOtdel" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryDopOtdel">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdBioISPDn_ISPDnOperator">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieKategoryPdBioISPDn" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdBioISPDn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdBioISPDn">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdBioISPDn_KategoryPdBio">
+    <End Role="MnogieKategoryPdBioISPDn" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdBioISPDn" Multiplicity="*" />
+    <End Role="KategoryPdBio" Type="ISPDnBDSQLModel.Store.KategoryPdBio" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPdBio">
+        <PropertyRef Name="KategoryPdBioID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdBioISPDn">
+        <PropertyRef Name="KategoryPdBio_KategoryPdBioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdDopISPDn_ISPDnOperator">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieKategoryPdDopISPDn" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdDopISPDn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdDopISPDn">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdDopISPDn_KategoryPdDop">
+    <End Role="MnogieKategoryPdDopISPDn" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdDopISPDn" Multiplicity="*" />
+    <End Role="KategoryPdDop" Type="ISPDnBDSQLModel.Store.KategoryPdDop" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPdDop">
+        <PropertyRef Name="KategoryPdDopID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdDopISPDn">
+        <PropertyRef Name="KategoryPdDop_KategoryPdDopID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdOtdel_KategoryPd">
+    <End Role="KategoryPd" Type="ISPDnBDSQLModel.Store.KategoryPd" Multiplicity="1" />
+    <End Role="MnogieKategoryPdOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdOtdel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPd">
+        <PropertyRef Name="KategoryPdID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdOtdel">
+        <PropertyRef Name="KategoryPd_KategoryPdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdOtdel_OtdelOrg">
+    <End Role="MnogieKategoryPdOtdel" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdOtdel" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdOtdel">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdSpecISPDn_ISPDnOperator">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.Store.ISPDnOperator" Multiplicity="1" />
+    <End Role="MnogieKategoryPdSpecISPDn" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdSpecISPDn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdSpecISPDn">
+        <PropertyRef Name="ISPDnOperator_ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieKategoryPdSpecISPDn_KategoryPdSpec">
+    <End Role="MnogieKategoryPdSpecISPDn" Type="ISPDnBDSQLModel.Store.MnogieKategoryPdSpecISPDn" Multiplicity="*" />
+    <End Role="KategoryPdSpec" Type="ISPDnBDSQLModel.Store.KategoryPdSpec" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="KategoryPdSpec">
+        <PropertyRef Name="KategoryPdSpecID" />
+      </Principal>
+      <Dependent Role="MnogieKategoryPdSpecISPDn">
+        <PropertyRef Name="KategoryPdSpec_KategoryPdSpecID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieOtdelSubj_KategorySubj">
+    <End Role="KategorySubj" Type="ISPDnBDSQLModel.Store.KategorySubj" Multiplicity="1" />
+    <End Role="MnogieOtdelSubj" Type="ISPDnBDSQLModel.Store.MnogieOtdelSubj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategorySubj">
+        <PropertyRef Name="KategorySubjID" />
+      </Principal>
+      <Dependent Role="MnogieOtdelSubj">
+        <PropertyRef Name="KategorySubj_KategorySubjID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieOtdelSubj_OtdelOrg">
+    <End Role="MnogieOtdelSubj" Type="ISPDnBDSQLModel.Store.MnogieOtdelSubj" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieOtdelSubj">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieRabotnikiOtdel_OtdelOrg">
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.Store.OtdelOrg" Multiplicity="1" />
+    <End Role="MnogieRabotnikiOtdel" Type="ISPDnBDSQLModel.Store.MnogieRabotnikiOtdel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OtdelOrg">
+        <PropertyRef Name="OtdelOrgID" />
+      </Principal>
+      <Dependent Role="MnogieRabotnikiOtdel">
+        <PropertyRef Name="OtdelOrg_OtdelOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MnogieRabotnikiOtdel_RabotnikiOrg">
+    <End Role="MnogieRabotnikiOtdel" Type="ISPDnBDSQLModel.Store.MnogieRabotnikiOtdel" Multiplicity="*" />
+    <End Role="RabotnikiOrg" Type="ISPDnBDSQLModel.Store.RabotnikiOrg" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="RabotnikiOrg">
+        <PropertyRef Name="RabotnikiOrgID" />
+      </Principal>
+      <Dependent Role="MnogieRabotnikiOtdel">
+        <PropertyRef Name="RabotnikiOrg_RabotnikiOrgID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

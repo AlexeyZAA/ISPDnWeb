@@ -1,0 +1,63 @@
+E:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+E:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+E:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+E:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+E:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+W:\PROJECT\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+W:\PROJECT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+W:\PROJECT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+W:\PROJECT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+W:\PROJECT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+W:\PROJECT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+W:\PROJECT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+C:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+C:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+C:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+C:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+C:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+D:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+D:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+D:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+D:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+D:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+D:\PROEKT\WebServiseISPDN\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+D:\PROEKT\Копия ГЛОБАЛЬНОГО ПРОЕКТА ВЕБ-СЕРВИСА\WebServiseISPDNАрхив10-11-12 Последний До изменений закона\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+D:\PROEKT\Копия ГЛОБАЛЬНОГО ПРОЕКТА ВЕБ-СЕРВИСА\WebServiseISPDNАрхив10-11-12 Последний До изменений закона\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+D:\PROEKT\Копия ГЛОБАЛЬНОГО ПРОЕКТА ВЕБ-СЕРВИСА\WebServiseISPDNАрхив10-11-12 Последний До изменений закона\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+D:\PROEKT\Копия ГЛОБАЛЬНОГО ПРОЕКТА ВЕБ-СЕРВИСА\WebServiseISPDNАрхив10-11-12 Последний До изменений закона\WebServiseISPDN\WebApplicationISPDn\obj\Debug\ResolveAssemblyReference.cache
+D:\PROEKT\Копия ГЛОБАЛЬНОГО ПРОЕКТА ВЕБ-СЕРВИСА\WebServiseISPDNАрхив10-11-12 Последний До изменений закона\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+D:\PROEKT\Копия ГЛОБАЛЬНОГО ПРОЕКТА ВЕБ-СЕРВИСА\WebServiseISPDNАрхив10-11-12 Последний До изменений закона\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll.config
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.dll
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\WebApplicationISPDn.pdb
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\Ionic.Zip.dll
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.csprojAssemblyReference.cache
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.csproj.CoreCompileInputs.cache
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.csproj.CopyComplete
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.dll
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\obj\Debug\WebApplicationISPDn.pdb
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\EntityFramework.dll
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\EntityFramework.xml
+C:\OSPanel\domains\ISPDnWeb\WebServiseISPDN\WebApplicationISPDn\bin\ru\EntityFramework.resources.dll

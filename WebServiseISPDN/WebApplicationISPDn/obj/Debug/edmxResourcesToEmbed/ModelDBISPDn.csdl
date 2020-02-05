@@ -1,0 +1,1353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ISPDnBDSQLModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="ISPDnBDSQLEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Actualnost" EntityType="ISPDnBDSQLModel.Actualnost" />
+    <EntitySet Name="aspnet_Applications" EntityType="ISPDnBDSQLModel.aspnet_Applications" />
+    <EntitySet Name="aspnet_Membership" EntityType="ISPDnBDSQLModel.aspnet_Membership" />
+    <EntitySet Name="aspnet_Paths" EntityType="ISPDnBDSQLModel.aspnet_Paths" />
+    <EntitySet Name="aspnet_PersonalizationAllUsers" EntityType="ISPDnBDSQLModel.aspnet_PersonalizationAllUsers" />
+    <EntitySet Name="aspnet_PersonalizationPerUser" EntityType="ISPDnBDSQLModel.aspnet_PersonalizationPerUser" />
+    <EntitySet Name="aspnet_Profile" EntityType="ISPDnBDSQLModel.aspnet_Profile" />
+    <EntitySet Name="aspnet_Roles" EntityType="ISPDnBDSQLModel.aspnet_Roles" />
+    <EntitySet Name="aspnet_SchemaVersions" EntityType="ISPDnBDSQLModel.aspnet_SchemaVersions" />
+    <EntitySet Name="aspnet_Users" EntityType="ISPDnBDSQLModel.aspnet_Users" />
+    <EntitySet Name="aspnet_WebEvent_Events" EntityType="ISPDnBDSQLModel.aspnet_WebEvent_Events" />
+    <EntitySet Name="CeliObrabotkiPD" EntityType="ISPDnBDSQLModel.CeliObrabotkiPD" />
+    <EntitySet Name="ISPDnHarakteristikIshod" EntityType="ISPDnBDSQLModel.ISPDnHarakteristikIshod" />
+    <EntitySet Name="ISPDnIshodZashita" EntityType="ISPDnBDSQLModel.ISPDnIshodZashita" />
+    <EntitySet Name="ISPDnKategory" EntityType="ISPDnBDSQLModel.ISPDnKategory" />
+    <EntitySet Name="ISPDnKlass" EntityType="ISPDnBDSQLModel.ISPDnKlass" />
+    <EntitySet Name="ISPDnObem" EntityType="ISPDnBDSQLModel.ISPDnObem" />
+    <EntitySet Name="ISPDnOperator" EntityType="ISPDnBDSQLModel.ISPDnOperator" />
+    <EntitySet Name="ISPDnTipSpecial" EntityType="ISPDnBDSQLModel.ISPDnTipSpecial" />
+    <EntitySet Name="KategoryPd" EntityType="ISPDnBDSQLModel.KategoryPd" />
+    <EntitySet Name="KategoryPdBio" EntityType="ISPDnBDSQLModel.KategoryPdBio" />
+    <EntitySet Name="KategoryPdDop" EntityType="ISPDnBDSQLModel.KategoryPdDop" />
+    <EntitySet Name="KategoryPdSpec" EntityType="ISPDnBDSQLModel.KategoryPdSpec" />
+    <EntitySet Name="KategorySubj" EntityType="ISPDnBDSQLModel.KategorySubj" />
+    <EntitySet Name="MnogieCeliObrabotkiISPDn" EntityType="ISPDnBDSQLModel.MnogieCeliObrabotkiISPDn" />
+    <EntitySet Name="MnogieISPDnSubj" EntityType="ISPDnBDSQLModel.MnogieISPDnSubj" />
+    <EntitySet Name="MnogieKategoryPdBioISPDn" EntityType="ISPDnBDSQLModel.MnogieKategoryPdBioISPDn" />
+    <EntitySet Name="MnogieKategoryPdDopISPDn" EntityType="ISPDnBDSQLModel.MnogieKategoryPdDopISPDn" />
+    <EntitySet Name="MnogieOpasnUgrozIS" EntityType="ISPDnBDSQLModel.MnogieOpasnUgrozIS" />
+    <EntitySet Name="MnogieRealizUgroz" EntityType="ISPDnBDSQLModel.MnogieRealizUgroz" />
+    <EntitySet Name="MnogieUgrozaActual" EntityType="ISPDnBDSQLModel.MnogieUgrozaActual" />
+    <EntitySet Name="MnogieVerUgrozIS" EntityType="ISPDnBDSQLModel.MnogieVerUgrozIS" />
+    <EntitySet Name="NazvanieUgroz" EntityType="ISPDnBDSQLModel.NazvanieUgroz" />
+    <EntitySet Name="OpasnostUgroz" EntityType="ISPDnBDSQLModel.OpasnostUgroz" />
+    <EntitySet Name="OrgOperator" EntityType="ISPDnBDSQLModel.OrgOperator" />
+    <EntitySet Name="OtdelOrg" EntityType="ISPDnBDSQLModel.OtdelOrg" />
+    <EntitySet Name="RabotnikiOrg" EntityType="ISPDnBDSQLModel.RabotnikiOrg" />
+    <EntitySet Name="RealizationUgroz" EntityType="ISPDnBDSQLModel.RealizationUgroz" />
+    <EntitySet Name="sysdiagrams" EntityType="ISPDnBDSQLModel.sysdiagrams" />
+    <EntitySet Name="VeroyatnostUgroz" EntityType="ISPDnBDSQLModel.VeroyatnostUgroz" />
+    <EntitySet Name="VidIshodHarakteristik" EntityType="ISPDnBDSQLModel.VidIshodHarakteristik" />
+    <EntitySet Name="VidUgroz" EntityType="ISPDnBDSQLModel.VidUgroz" />
+    <EntitySet Name="vw_aspnet_Applications" EntityType="ISPDnBDSQLModel.vw_aspnet_Applications" />
+    <EntitySet Name="vw_aspnet_MembershipUsers" EntityType="ISPDnBDSQLModel.vw_aspnet_MembershipUsers" />
+    <EntitySet Name="vw_aspnet_Profiles" EntityType="ISPDnBDSQLModel.vw_aspnet_Profiles" />
+    <EntitySet Name="vw_aspnet_Roles" EntityType="ISPDnBDSQLModel.vw_aspnet_Roles" />
+    <EntitySet Name="vw_aspnet_Users" EntityType="ISPDnBDSQLModel.vw_aspnet_Users" />
+    <EntitySet Name="vw_aspnet_UsersInRoles" EntityType="ISPDnBDSQLModel.vw_aspnet_UsersInRoles" />
+    <EntitySet Name="vw_aspnet_WebPartState_Paths" EntityType="ISPDnBDSQLModel.vw_aspnet_WebPartState_Paths" />
+    <EntitySet Name="vw_aspnet_WebPartState_Shared" EntityType="ISPDnBDSQLModel.vw_aspnet_WebPartState_Shared" />
+    <EntitySet Name="vw_aspnet_WebPartState_User" EntityType="ISPDnBDSQLModel.vw_aspnet_WebPartState_User" />
+    <AssociationSet Name="MnogieUgrozaActual_FK00" Association="ISPDnBDSQLModel.MnogieUgrozaActual_FK00">
+      <End Role="Actualnost" EntitySet="Actualnost" />
+      <End Role="MnogieUgrozaActual" EntitySet="MnogieUgrozaActual" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__Appli__02C769E9" Association="ISPDnBDSQLModel.FK__aspnet_Me__Appli__02C769E9">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__3BFFE745" Association="ISPDnBDSQLModel.FK__aspnet_Pa__Appli__3BFFE745">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__251C81ED" Association="ISPDnBDSQLModel.FK__aspnet_Ro__Appli__251C81ED">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__6EC0713C" Association="ISPDnBDSQLModel.FK__aspnet_Us__Appli__6EC0713C">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__03BB8E22" Association="ISPDnBDSQLModel.FK__aspnet_Me__UserI__03BB8E22">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__43A1090D" Association="ISPDnBDSQLModel.FK__aspnet_Pe__PathI__43A1090D">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__4959E263" Association="ISPDnBDSQLModel.FK__aspnet_Pe__PathI__4959E263">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__4A4E069C" Association="ISPDnBDSQLModel.FK__aspnet_Pe__UserI__4A4E069C">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__19AACF41" Association="ISPDnBDSQLModel.FK__aspnet_Pr__UserI__19AACF41">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="CeliObrabotkiPD_FK00" Association="ISPDnBDSQLModel.CeliObrabotkiPD_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="CeliObrabotkiPD" EntitySet="CeliObrabotkiPD" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnHarakteristikIshod_FK00" Association="ISPDnBDSQLModel.ISPDnHarakteristikIshod_FK00">
+      <End Role="VidIshodHarakteristik" EntitySet="VidIshodHarakteristik" />
+      <End Role="ISPDnHarakteristikIshod" EntitySet="ISPDnHarakteristikIshod" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK00" Association="ISPDnBDSQLModel.ISPDnOperator_FK00">
+      <End Role="ISPDnIshodZashita" EntitySet="ISPDnIshodZashita" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK01" Association="ISPDnBDSQLModel.ISPDnOperator_FK01">
+      <End Role="ISPDnKategory" EntitySet="ISPDnKategory" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK02" Association="ISPDnBDSQLModel.ISPDnOperator_FK02">
+      <End Role="ISPDnKlass" EntitySet="ISPDnKlass" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK03" Association="ISPDnBDSQLModel.ISPDnOperator_FK03">
+      <End Role="ISPDnObem" EntitySet="ISPDnObem" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK04" Association="ISPDnBDSQLModel.ISPDnOperator_FK04">
+      <End Role="ISPDnTipSpecial" EntitySet="ISPDnTipSpecial" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="ISPDnOperator_FK05" Association="ISPDnBDSQLModel.ISPDnOperator_FK05">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOpasnUgrozIS_FK00" Association="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieOpasnUgrozIS" EntitySet="MnogieOpasnUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRealizUgroz_FK00" Association="ISPDnBDSQLModel.MnogieRealizUgroz_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieRealizUgroz" EntitySet="MnogieRealizUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieUgrozaActual_FK01" Association="ISPDnBDSQLModel.MnogieUgrozaActual_FK01">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieUgrozaActual" EntitySet="MnogieUgrozaActual" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieVerUgrozIS_FK00" Association="ISPDnBDSQLModel.MnogieVerUgrozIS_FK00">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="MnogieVerUgrozIS" EntitySet="MnogieVerUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="KategoryPdBio_FK00" Association="ISPDnBDSQLModel.KategoryPdBio_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="KategoryPdBio" EntitySet="KategoryPdBio" />
+    </AssociationSet>
+    <AssociationSet Name="KategoryPdDop_FK00" Association="ISPDnBDSQLModel.KategoryPdDop_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="KategoryPdDop" EntitySet="KategoryPdDop" />
+    </AssociationSet>
+    <AssociationSet Name="KategorySubj_FK00" Association="ISPDnBDSQLModel.KategorySubj_FK00">
+      <End Role="OrgOperator" EntitySet="OrgOperator" />
+      <End Role="KategorySubj" EntitySet="KategorySubj" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOpasnUgrozIS_FK01" Association="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK01">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieOpasnUgrozIS" EntitySet="MnogieOpasnUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOpasnUgrozIS_FK02" Association="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK02">
+      <End Role="OpasnostUgroz" EntitySet="OpasnostUgroz" />
+      <End Role="MnogieOpasnUgrozIS" EntitySet="MnogieOpasnUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRealizUgroz_FK01" Association="ISPDnBDSQLModel.MnogieRealizUgroz_FK01">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieRealizUgroz" EntitySet="MnogieRealizUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRealizUgroz_FK02" Association="ISPDnBDSQLModel.MnogieRealizUgroz_FK02">
+      <End Role="RealizationUgroz" EntitySet="RealizationUgroz" />
+      <End Role="MnogieRealizUgroz" EntitySet="MnogieRealizUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieUgrozaActual_FK02" Association="ISPDnBDSQLModel.MnogieUgrozaActual_FK02">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieUgrozaActual" EntitySet="MnogieUgrozaActual" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieVerUgrozIS_FK01" Association="ISPDnBDSQLModel.MnogieVerUgrozIS_FK01">
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+      <End Role="MnogieVerUgrozIS" EntitySet="MnogieVerUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieVerUgrozIS_FK02" Association="ISPDnBDSQLModel.MnogieVerUgrozIS_FK02">
+      <End Role="VeroyatnostUgroz" EntitySet="VeroyatnostUgroz" />
+      <End Role="MnogieVerUgrozIS" EntitySet="MnogieVerUgrozIS" />
+    </AssociationSet>
+    <AssociationSet Name="NazvanieUgroz_FK00" Association="ISPDnBDSQLModel.NazvanieUgroz_FK00">
+      <End Role="VidUgroz" EntitySet="VidUgroz" />
+      <End Role="NazvanieUgroz" EntitySet="NazvanieUgroz" />
+    </AssociationSet>
+    <AssociationSet Name="aspnet_UsersInRoles" Association="ISPDnBDSQLModel.aspnet_UsersInRoles">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieCeliOtdel" Association="ISPDnBDSQLModel.MnogieCeliOtdel">
+      <End Role="CeliObrabotkiPD" EntitySet="CeliObrabotkiPD" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieHarakteristikiIshod" Association="ISPDnBDSQLModel.MnogieHarakteristikiIshod">
+      <End Role="ISPDnHarakteristikIshod" EntitySet="ISPDnHarakteristikIshod" />
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieISPDnKategoryPD" Association="ISPDnBDSQLModel.MnogieISPDnKategoryPD">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="KategoryPd" EntitySet="KategoryPd" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieISPDnRabotniki" Association="ISPDnBDSQLModel.MnogieISPDnRabotniki">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="RabotnikiOrg" EntitySet="RabotnikiOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieKategoriSpecOtdel" Association="ISPDnBDSQLModel.MnogieKategoriSpecOtdel">
+      <End Role="KategoryPdSpec" EntitySet="KategoryPdSpec" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieKategoryBioOtdel" Association="ISPDnBDSQLModel.MnogieKategoryBioOtdel">
+      <End Role="KategoryPdBio" EntitySet="KategoryPdBio" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieKategoryDopOtdel" Association="ISPDnBDSQLModel.MnogieKategoryDopOtdel">
+      <End Role="KategoryPdDop" EntitySet="KategoryPdDop" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieKategoryPdOtdel" Association="ISPDnBDSQLModel.MnogieKategoryPdOtdel">
+      <End Role="KategoryPd" EntitySet="KategoryPd" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieKategoryPdSpecISPDn" Association="ISPDnBDSQLModel.MnogieKategoryPdSpecISPDn">
+      <End Role="ISPDnOperator" EntitySet="ISPDnOperator" />
+      <End Role="KategoryPdSpec" EntitySet="KategoryPdSpec" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieOtdelSubj" Association="ISPDnBDSQLModel.MnogieOtdelSubj">
+      <End Role="KategorySubj" EntitySet="KategorySubj" />
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+    </AssociationSet>
+    <AssociationSet Name="MnogieRabotnikiOtdel" Association="ISPDnBDSQLModel.MnogieRabotnikiOtdel">
+      <End Role="OtdelOrg" EntitySet="OtdelOrg" />
+      <End Role="RabotnikiOrg" EntitySet="RabotnikiOrg" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Actualnost">
+    <Key>
+      <PropertyRef Name="ActualnostID" />
+    </Key>
+    <Property Name="ActualnostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ActualnostName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="MnogieUgrozaActual" Relationship="ISPDnBDSQLModel.MnogieUgrozaActual_FK00" FromRole="Actualnost" ToRole="MnogieUgrozaActual" />
+  </EntityType>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="ISPDnBDSQLModel.FK__aspnet_Me__Appli__02C769E9" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="ISPDnBDSQLModel.FK__aspnet_Pa__Appli__3BFFE745" FromRole="aspnet_Applications" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="ISPDnBDSQLModel.FK__aspnet_Ro__Appli__251C81ED" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ISPDnBDSQLModel.FK__aspnet_Us__Appli__6EC0713C" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordFormat" Type="Int32" Nullable="false" />
+    <Property Name="PasswordSalt" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="MobilePIN" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredEmail" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordQuestion" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordAnswer" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsLockedOut" Type="Boolean" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ISPDnBDSQLModel.FK__aspnet_Me__Appli__02C769E9" FromRole="aspnet_Membership" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ISPDnBDSQLModel.FK__aspnet_Me__UserI__03BB8E22" FromRole="aspnet_Membership" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Paths">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="PathId" Type="Guid" Nullable="false" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredPath" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ISPDnBDSQLModel.FK__aspnet_Pa__Appli__3BFFE745" FromRole="aspnet_Paths" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_PersonalizationAllUsers" Relationship="ISPDnBDSQLModel.FK__aspnet_Pe__PathI__43A1090D" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationAllUsers" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="ISPDnBDSQLModel.FK__aspnet_Pe__PathI__4959E263" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationPerUser" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationAllUsers">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="PathId" Type="Guid" Nullable="false" />
+    <Property Name="PageSettings" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="ISPDnBDSQLModel.FK__aspnet_Pe__PathI__43A1090D" FromRole="aspnet_PersonalizationAllUsers" ToRole="aspnet_Paths" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="PathId" Type="Guid" />
+    <Property Name="UserId" Type="Guid" />
+    <Property Name="PageSettings" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="ISPDnBDSQLModel.FK__aspnet_Pe__PathI__4959E263" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ISPDnBDSQLModel.FK__aspnet_Pe__UserI__4A4E069C" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="PropertyNames" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PropertyValuesString" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PropertyValuesBinary" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ISPDnBDSQLModel.FK__aspnet_Pr__UserI__19AACF41" FromRole="aspnet_Profile" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredRoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ISPDnBDSQLModel.FK__aspnet_Ro__Appli__251C81ED" FromRole="aspnet_Roles" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ISPDnBDSQLModel.aspnet_UsersInRoles" FromRole="aspnet_Roles" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_SchemaVersions">
+    <Key>
+      <PropertyRef Name="Feature" />
+      <PropertyRef Name="CompatibleSchemaVersion" />
+    </Key>
+    <Property Name="Feature" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="CompatibleSchemaVersion" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="IsCurrentVersion" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MobileAlias" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
+    <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ISPDnBDSQLModel.FK__aspnet_Us__Appli__6EC0713C" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="ISPDnBDSQLModel.FK__aspnet_Me__UserI__03BB8E22" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="ISPDnBDSQLModel.FK__aspnet_Pe__UserI__4A4E069C" FromRole="aspnet_Users" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_Profile" Relationship="ISPDnBDSQLModel.FK__aspnet_Pr__UserI__19AACF41" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="ISPDnBDSQLModel.aspnet_UsersInRoles" FromRole="aspnet_Users" ToRole="aspnet_Roles" />
+  </EntityType>
+  <EntityType Name="aspnet_WebEvent_Events">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="String" Nullable="false" MaxLength="32" Unicode="false" FixedLength="true" />
+    <Property Name="EventTimeUtc" Type="DateTime" Nullable="false" />
+    <Property Name="EventTime" Type="DateTime" Nullable="false" />
+    <Property Name="EventType" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="EventSequence" Type="Decimal" Nullable="false" Precision="19" Scale="0" />
+    <Property Name="EventOccurrence" Type="Decimal" Nullable="false" Precision="19" Scale="0" />
+    <Property Name="EventCode" Type="Int32" Nullable="false" />
+    <Property Name="EventDetailCode" Type="Int32" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="1024" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationPath" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationVirtualPath" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MachineName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="RequestUrl" Type="String" MaxLength="1024" Unicode="true" FixedLength="false" />
+    <Property Name="ExceptionType" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Details" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="CeliObrabotkiPD">
+    <Key>
+      <PropertyRef Name="CeliObrabotkiPDID" />
+    </Key>
+    <Property Name="CeliObrabotkiPDID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CeliObrabotkiName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="CeliObrabotkiSelect" Type="Boolean" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <NavigationProperty Name="OrgOperator" Relationship="ISPDnBDSQLModel.CeliObrabotkiPD_FK00" FromRole="CeliObrabotkiPD" ToRole="OrgOperator" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieCeliOtdel" FromRole="CeliObrabotkiPD" ToRole="OtdelOrg" />
+  </EntityType>
+  <EntityType Name="ISPDnHarakteristikIshod">
+    <Key>
+      <PropertyRef Name="ISPDnHarakteristikIshodID" />
+    </Key>
+    <Property Name="ISPDnHarakteristikIshodID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnHarakteristikIshodName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="VidIshodHarakteristikID" Type="Int32" />
+    <NavigationProperty Name="VidIshodHarakteristik" Relationship="ISPDnBDSQLModel.ISPDnHarakteristikIshod_FK00" FromRole="ISPDnHarakteristikIshod" ToRole="VidIshodHarakteristik" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieHarakteristikiIshod" FromRole="ISPDnHarakteristikIshod" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="ISPDnIshodZashita">
+    <Key>
+      <PropertyRef Name="ISPDnIshodZashitaID" />
+    </Key>
+    <Property Name="ISPDnIshodZashitaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnIshodZashitaName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="IshodKofY1" Type="Int32" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK00" FromRole="ISPDnIshodZashita" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="ISPDnKategory">
+    <Key>
+      <PropertyRef Name="ISPDnKategoryID" />
+    </Key>
+    <Property Name="ISPDnKategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnKategoryName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ISPDnKategoryOpisanie" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="upsize_ts" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK01" FromRole="ISPDnKategory" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="ISPDnKlass">
+    <Key>
+      <PropertyRef Name="ISPDnKlassID" />
+    </Key>
+    <Property Name="ISPDnKlassID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnPrisvoenKlass" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OpisanieKlass" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK02" FromRole="ISPDnKlass" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="ISPDnObem">
+    <Key>
+      <PropertyRef Name="ISPDnObemID" />
+    </Key>
+    <Property Name="ISPDnObemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnObemOpisanie" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="upsize_ts" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK03" FromRole="ISPDnObem" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="ISPDnOperator">
+    <Key>
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnOperatorName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <Property Name="ISPDnKategoryID" Type="Int32" />
+    <Property Name="ISPDnObemID" Type="Int32" />
+    <Property Name="ISPDnKlassID" Type="Int32" />
+    <Property Name="ISPDnIshodZashitaID" Type="Int32" />
+    <Property Name="ISPDnTipSpecialID" Type="Int32" />
+    <NavigationProperty Name="ISPDnIshodZashita" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK00" FromRole="ISPDnOperator" ToRole="ISPDnIshodZashita" />
+    <NavigationProperty Name="ISPDnKategory" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK01" FromRole="ISPDnOperator" ToRole="ISPDnKategory" />
+    <NavigationProperty Name="ISPDnKlass" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK02" FromRole="ISPDnOperator" ToRole="ISPDnKlass" />
+    <NavigationProperty Name="ISPDnObem" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK03" FromRole="ISPDnOperator" ToRole="ISPDnObem" />
+    <NavigationProperty Name="ISPDnTipSpecial" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK04" FromRole="ISPDnOperator" ToRole="ISPDnTipSpecial" />
+    <NavigationProperty Name="OrgOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK05" FromRole="ISPDnOperator" ToRole="OrgOperator" />
+    <NavigationProperty Name="MnogieOpasnUgrozIS" Relationship="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK00" FromRole="ISPDnOperator" ToRole="MnogieOpasnUgrozIS" />
+    <NavigationProperty Name="MnogieRealizUgroz" Relationship="ISPDnBDSQLModel.MnogieRealizUgroz_FK00" FromRole="ISPDnOperator" ToRole="MnogieRealizUgroz" />
+    <NavigationProperty Name="MnogieUgrozaActual" Relationship="ISPDnBDSQLModel.MnogieUgrozaActual_FK01" FromRole="ISPDnOperator" ToRole="MnogieUgrozaActual" />
+    <NavigationProperty Name="MnogieVerUgrozIS" Relationship="ISPDnBDSQLModel.MnogieVerUgrozIS_FK00" FromRole="ISPDnOperator" ToRole="MnogieVerUgrozIS" />
+    <NavigationProperty Name="ISPDnHarakteristikIshod" Relationship="ISPDnBDSQLModel.MnogieHarakteristikiIshod" FromRole="ISPDnOperator" ToRole="ISPDnHarakteristikIshod" />
+    <NavigationProperty Name="KategoryPd" Relationship="ISPDnBDSQLModel.MnogieISPDnKategoryPD" FromRole="ISPDnOperator" ToRole="KategoryPd" />
+    <NavigationProperty Name="RabotnikiOrg" Relationship="ISPDnBDSQLModel.MnogieISPDnRabotniki" FromRole="ISPDnOperator" ToRole="RabotnikiOrg" />
+    <NavigationProperty Name="KategoryPdSpec" Relationship="ISPDnBDSQLModel.MnogieKategoryPdSpecISPDn" FromRole="ISPDnOperator" ToRole="KategoryPdSpec" />
+  </EntityType>
+  <EntityType Name="ISPDnTipSpecial">
+    <Key>
+      <PropertyRef Name="ISPDnTipSpecialID" />
+    </Key>
+    <Property Name="ISPDnTipSpecialID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISPDnTipSpecialName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ISPDnTipSpecialOpisanie" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="upsize_ts" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK04" FromRole="ISPDnTipSpecial" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="KategoryPd">
+    <Key>
+      <PropertyRef Name="KategoryPdID" />
+    </Key>
+    <Property Name="KategoryPdID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoryPdName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieISPDnKategoryPD" FromRole="KategoryPd" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieKategoryPdOtdel" FromRole="KategoryPd" ToRole="OtdelOrg" />
+  </EntityType>
+  <EntityType Name="KategoryPdBio">
+    <Key>
+      <PropertyRef Name="KategoryPdBioID" />
+    </Key>
+    <Property Name="KategoryPdBioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoryPdBioName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <Property Name="KategoryPdBioSelect" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="OrgOperator" Relationship="ISPDnBDSQLModel.KategoryPdBio_FK00" FromRole="KategoryPdBio" ToRole="OrgOperator" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieKategoryBioOtdel" FromRole="KategoryPdBio" ToRole="OtdelOrg" />
+  </EntityType>
+  <EntityType Name="KategoryPdDop">
+    <Key>
+      <PropertyRef Name="KategoryPdDopID" />
+    </Key>
+    <Property Name="KategoryPdDopID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoryPdDopName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="KategoryPdDopSelect" Type="Boolean" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <NavigationProperty Name="OrgOperator" Relationship="ISPDnBDSQLModel.KategoryPdDop_FK00" FromRole="KategoryPdDop" ToRole="OrgOperator" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieKategoryDopOtdel" FromRole="KategoryPdDop" ToRole="OtdelOrg" />
+  </EntityType>
+  <EntityType Name="KategoryPdSpec">
+    <Key>
+      <PropertyRef Name="KategoryPdSpecID" />
+    </Key>
+    <Property Name="KategoryPdSpecID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoryPdSpecName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieKategoriSpecOtdel" FromRole="KategoryPdSpec" ToRole="OtdelOrg" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieKategoryPdSpecISPDn" FromRole="KategoryPdSpec" ToRole="ISPDnOperator" />
+  </EntityType>
+  <EntityType Name="KategorySubj">
+    <Key>
+      <PropertyRef Name="KategorySubjID" />
+    </Key>
+    <Property Name="KategorySubjID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategorySubjName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="KategorySubjSelect" Type="Boolean" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <NavigationProperty Name="OrgOperator" Relationship="ISPDnBDSQLModel.KategorySubj_FK00" FromRole="KategorySubj" ToRole="OrgOperator" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieOtdelSubj" FromRole="KategorySubj" ToRole="OtdelOrg" />
+  </EntityType>
+  <EntityType Name="MnogieCeliObrabotkiISPDn">
+    <Key>
+      <PropertyRef Name="CeliObrabotkiPDID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="CeliObrabotkiPDID" Type="Int32" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieISPDnSubj">
+    <Key>
+      <PropertyRef Name="KategorySubjID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="KategorySubjID" Type="Int32" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryPdBioISPDn">
+    <Key>
+      <PropertyRef Name="ISPDnOperatorID" />
+      <PropertyRef Name="KategoryPdBioID" />
+    </Key>
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="KategoryPdBioID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieKategoryPdDopISPDn">
+    <Key>
+      <PropertyRef Name="ISPDnOperatorID" />
+      <PropertyRef Name="KategoryPdDopID" />
+    </Key>
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="KategoryPdDopID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MnogieOpasnUgrozIS">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="Int32" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="OpasnostUgrozID" Type="Int32" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK00" FromRole="MnogieOpasnUgrozIS" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="NazvanieUgroz" Relationship="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK01" FromRole="MnogieOpasnUgrozIS" ToRole="NazvanieUgroz" />
+    <NavigationProperty Name="OpasnostUgroz" Relationship="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK02" FromRole="MnogieOpasnUgrozIS" ToRole="OpasnostUgroz" />
+  </EntityType>
+  <EntityType Name="MnogieRealizUgroz">
+    <Key>
+      <PropertyRef Name="ISPDnOperatorID" />
+      <PropertyRef Name="NazvanieUgrozID" />
+    </Key>
+    <Property Name="RealizationUgrozID" Type="Int32" />
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="NazvanieUgrozID" Type="Int32" Nullable="false" />
+    <Property Name="KofRealization" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieRealizUgroz_FK00" FromRole="MnogieRealizUgroz" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="NazvanieUgroz" Relationship="ISPDnBDSQLModel.MnogieRealizUgroz_FK01" FromRole="MnogieRealizUgroz" ToRole="NazvanieUgroz" />
+    <NavigationProperty Name="RealizationUgroz" Relationship="ISPDnBDSQLModel.MnogieRealizUgroz_FK02" FromRole="MnogieRealizUgroz" ToRole="RealizationUgroz" />
+  </EntityType>
+  <EntityType Name="MnogieUgrozaActual">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="Int32" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="ActualnostID" Type="Int32" />
+    <NavigationProperty Name="Actualnost" Relationship="ISPDnBDSQLModel.MnogieUgrozaActual_FK00" FromRole="MnogieUgrozaActual" ToRole="Actualnost" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieUgrozaActual_FK01" FromRole="MnogieUgrozaActual" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="NazvanieUgroz" Relationship="ISPDnBDSQLModel.MnogieUgrozaActual_FK02" FromRole="MnogieUgrozaActual" ToRole="NazvanieUgroz" />
+  </EntityType>
+  <EntityType Name="MnogieVerUgrozIS">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+      <PropertyRef Name="ISPDnOperatorID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="Int32" Nullable="false" />
+    <Property Name="ISPDnOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="VeroyatnostUgrozID" Type="Int32" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieVerUgrozIS_FK00" FromRole="MnogieVerUgrozIS" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="NazvanieUgroz" Relationship="ISPDnBDSQLModel.MnogieVerUgrozIS_FK01" FromRole="MnogieVerUgrozIS" ToRole="NazvanieUgroz" />
+    <NavigationProperty Name="VeroyatnostUgroz" Relationship="ISPDnBDSQLModel.MnogieVerUgrozIS_FK02" FromRole="MnogieVerUgrozIS" ToRole="VeroyatnostUgroz" />
+  </EntityType>
+  <EntityType Name="NazvanieUgroz">
+    <Key>
+      <PropertyRef Name="NazvanieUgrozID" />
+    </Key>
+    <Property Name="NazvanieUgrozID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NazvanieUgrozName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VidUgrozID" Type="Int32" />
+    <Property Name="C1" Type="Boolean" Nullable="false" />
+    <Property Name="C2" Type="Boolean" Nullable="false" />
+    <Property Name="C3" Type="Boolean" Nullable="false" />
+    <Property Name="C4" Type="Boolean" Nullable="false" />
+    <Property Name="upsize_ts" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="MnogieOpasnUgrozIS" Relationship="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK01" FromRole="NazvanieUgroz" ToRole="MnogieOpasnUgrozIS" />
+    <NavigationProperty Name="MnogieRealizUgroz" Relationship="ISPDnBDSQLModel.MnogieRealizUgroz_FK01" FromRole="NazvanieUgroz" ToRole="MnogieRealizUgroz" />
+    <NavigationProperty Name="MnogieUgrozaActual" Relationship="ISPDnBDSQLModel.MnogieUgrozaActual_FK02" FromRole="NazvanieUgroz" ToRole="MnogieUgrozaActual" />
+    <NavigationProperty Name="MnogieVerUgrozIS" Relationship="ISPDnBDSQLModel.MnogieVerUgrozIS_FK01" FromRole="NazvanieUgroz" ToRole="MnogieVerUgrozIS" />
+    <NavigationProperty Name="VidUgroz" Relationship="ISPDnBDSQLModel.NazvanieUgroz_FK00" FromRole="NazvanieUgroz" ToRole="VidUgroz" />
+  </EntityType>
+  <EntityType Name="OpasnostUgroz">
+    <Key>
+      <PropertyRef Name="OpasnostUgrozID" />
+    </Key>
+    <Property Name="OpasnostUgrozID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OpasnostUgrozName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="MnogieOpasnUgrozIS" Relationship="ISPDnBDSQLModel.MnogieOpasnUgrozIS_FK02" FromRole="OpasnostUgroz" ToRole="MnogieOpasnUgrozIS" />
+  </EntityType>
+  <EntityType Name="OrgOperator">
+    <Key>
+      <PropertyRef Name="OrgOperatorID" />
+    </Key>
+    <Property Name="OrgOperatorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrgOperatorKratkName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorFullName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorINN" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorRukovoditelName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorRukovoditelDolgn" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="UserID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="CeliObrabotkiPD" Relationship="ISPDnBDSQLModel.CeliObrabotkiPD_FK00" FromRole="OrgOperator" ToRole="CeliObrabotkiPD" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.ISPDnOperator_FK05" FromRole="OrgOperator" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="KategoryPdBio" Relationship="ISPDnBDSQLModel.KategoryPdBio_FK00" FromRole="OrgOperator" ToRole="KategoryPdBio" />
+    <NavigationProperty Name="KategoryPdDop" Relationship="ISPDnBDSQLModel.KategoryPdDop_FK00" FromRole="OrgOperator" ToRole="KategoryPdDop" />
+    <NavigationProperty Name="KategorySubj" Relationship="ISPDnBDSQLModel.KategorySubj_FK00" FromRole="OrgOperator" ToRole="KategorySubj" />
+  </EntityType>
+  <EntityType Name="OtdelOrg">
+    <Key>
+      <PropertyRef Name="OtdelOrgID" />
+    </Key>
+    <Property Name="OtdelOrgID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OtdelOrgName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <NavigationProperty Name="CeliObrabotkiPD" Relationship="ISPDnBDSQLModel.MnogieCeliOtdel" FromRole="OtdelOrg" ToRole="CeliObrabotkiPD" />
+    <NavigationProperty Name="KategoryPdSpec" Relationship="ISPDnBDSQLModel.MnogieKategoriSpecOtdel" FromRole="OtdelOrg" ToRole="KategoryPdSpec" />
+    <NavigationProperty Name="KategoryPdBio" Relationship="ISPDnBDSQLModel.MnogieKategoryBioOtdel" FromRole="OtdelOrg" ToRole="KategoryPdBio" />
+    <NavigationProperty Name="KategoryPdDop" Relationship="ISPDnBDSQLModel.MnogieKategoryDopOtdel" FromRole="OtdelOrg" ToRole="KategoryPdDop" />
+    <NavigationProperty Name="KategoryPd" Relationship="ISPDnBDSQLModel.MnogieKategoryPdOtdel" FromRole="OtdelOrg" ToRole="KategoryPd" />
+    <NavigationProperty Name="KategorySubj" Relationship="ISPDnBDSQLModel.MnogieOtdelSubj" FromRole="OtdelOrg" ToRole="KategorySubj" />
+    <NavigationProperty Name="RabotnikiOrg" Relationship="ISPDnBDSQLModel.MnogieRabotnikiOtdel" FromRole="OtdelOrg" ToRole="RabotnikiOrg" />
+  </EntityType>
+  <EntityType Name="RabotnikiOrg">
+    <Key>
+      <PropertyRef Name="RabotnikiOrgID" />
+    </Key>
+    <Property Name="RabotnikiOrgID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RabotnikiOrgFio" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="RabotnikiOrgDolgn" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="RabotnikiOrgSelect" Type="Boolean" Nullable="false" />
+    <Property Name="OrgOperatorID" Type="Int32" />
+    <NavigationProperty Name="ISPDnOperator" Relationship="ISPDnBDSQLModel.MnogieISPDnRabotniki" FromRole="RabotnikiOrg" ToRole="ISPDnOperator" />
+    <NavigationProperty Name="OtdelOrg" Relationship="ISPDnBDSQLModel.MnogieRabotnikiOtdel" FromRole="RabotnikiOrg" ToRole="OtdelOrg" />
+  </EntityType>
+  <EntityType Name="RealizationUgroz">
+    <Key>
+      <PropertyRef Name="RealizationUgrozID" />
+    </Key>
+    <Property Name="RealizationUgrozID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RealizationUgrozName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="RealizationUgrozKof" Type="Int32" />
+    <NavigationProperty Name="MnogieRealizUgroz" Relationship="ISPDnBDSQLModel.MnogieRealizUgroz_FK02" FromRole="RealizationUgroz" ToRole="MnogieRealizUgroz" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="VeroyatnostUgroz">
+    <Key>
+      <PropertyRef Name="VeroyatnostUgrozID" />
+    </Key>
+    <Property Name="VeroyatnostUgrozID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VeroyatnostUgrozName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OpisanieVeroyatnosti" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VeroyantnKofY2" Type="Int32" />
+    <Property Name="upsize_ts" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="MnogieVerUgrozIS" Relationship="ISPDnBDSQLModel.MnogieVerUgrozIS_FK02" FromRole="VeroyatnostUgroz" ToRole="MnogieVerUgrozIS" />
+  </EntityType>
+  <EntityType Name="VidIshodHarakteristik">
+    <Key>
+      <PropertyRef Name="VidIshodHarakteristikID" />
+    </Key>
+    <Property Name="VidIshodHarakteristikID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VidIshodHarakteristikName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ISPDnHarakteristikIshod" Relationship="ISPDnBDSQLModel.ISPDnHarakteristikIshod_FK00" FromRole="VidIshodHarakteristik" ToRole="ISPDnHarakteristikIshod" />
+  </EntityType>
+  <EntityType Name="VidUgroz">
+    <Key>
+      <PropertyRef Name="VidUgrozID" />
+    </Key>
+    <Property Name="VidUgrozID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VidUgrozName" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="NazvanieUgroz" Relationship="ISPDnBDSQLModel.NazvanieUgroz_FK00" FromRole="VidUgroz" ToRole="NazvanieUgroz" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationName" />
+      <PropertyRef Name="LoweredApplicationName" />
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_MembershipUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="PasswordFormat" />
+      <PropertyRef Name="IsApproved" />
+      <PropertyRef Name="IsLockedOut" />
+      <PropertyRef Name="CreateDate" />
+      <PropertyRef Name="LastLoginDate" />
+      <PropertyRef Name="LastPasswordChangedDate" />
+      <PropertyRef Name="LastLockoutDate" />
+      <PropertyRef Name="FailedPasswordAttemptCount" />
+      <PropertyRef Name="FailedPasswordAttemptWindowStart" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptCount" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptWindowStart" />
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="PasswordFormat" Type="Int32" Nullable="false" />
+    <Property Name="MobilePIN" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredEmail" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordQuestion" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordAnswer" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsLockedOut" Type="Boolean" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MobileAlias" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
+    <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Profiles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <Property Name="DataSize" Type="Int32" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Roles">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="RoleName" />
+      <PropertyRef Name="LoweredRoleName" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredRoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_Users">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="LoweredUserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MobileAlias" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
+    <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_WebPartState_Paths">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="PathId" />
+      <PropertyRef Name="Path" />
+      <PropertyRef Name="LoweredPath" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="PathId" Type="Guid" Nullable="false" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredPath" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_WebPartState_Shared">
+    <Key>
+      <PropertyRef Name="PathId" />
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Name="PathId" Type="Guid" Nullable="false" />
+    <Property Name="DataSize" Type="Int32" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vw_aspnet_WebPartState_User">
+    <Key>
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Name="PathId" Type="Guid" />
+    <Property Name="UserId" Type="Guid" />
+    <Property Name="DataSize" Type="Int32" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <Association Name="MnogieUgrozaActual_FK00">
+    <End Role="Actualnost" Type="ISPDnBDSQLModel.Actualnost" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieUgrozaActual" Type="ISPDnBDSQLModel.MnogieUgrozaActual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actualnost">
+        <PropertyRef Name="ActualnostID" />
+      </Principal>
+      <Dependent Role="MnogieUgrozaActual">
+        <PropertyRef Name="ActualnostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__Appli__02C769E9">
+    <End Role="aspnet_Applications" Type="ISPDnBDSQLModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="ISPDnBDSQLModel.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__3BFFE745">
+    <End Role="aspnet_Applications" Type="ISPDnBDSQLModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Paths" Type="ISPDnBDSQLModel.aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__251C81ED">
+    <End Role="aspnet_Applications" Type="ISPDnBDSQLModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="ISPDnBDSQLModel.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__6EC0713C">
+    <End Role="aspnet_Applications" Type="ISPDnBDSQLModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="ISPDnBDSQLModel.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__03BB8E22">
+    <End Role="aspnet_Users" Type="ISPDnBDSQLModel.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="ISPDnBDSQLModel.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__43A1090D">
+    <End Role="aspnet_Paths" Type="ISPDnBDSQLModel.aspnet_Paths" Multiplicity="1" />
+    <End Role="aspnet_PersonalizationAllUsers" Type="ISPDnBDSQLModel.aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__4959E263">
+    <End Role="aspnet_Paths" Type="ISPDnBDSQLModel.aspnet_Paths" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="ISPDnBDSQLModel.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__4A4E069C">
+    <End Role="aspnet_Users" Type="ISPDnBDSQLModel.aspnet_Users" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="ISPDnBDSQLModel.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__19AACF41">
+    <End Role="aspnet_Users" Type="ISPDnBDSQLModel.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="ISPDnBDSQLModel.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CeliObrabotkiPD_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.OrgOperator" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CeliObrabotkiPD" Type="ISPDnBDSQLModel.CeliObrabotkiPD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="CeliObrabotkiPD">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnHarakteristikIshod_FK00">
+    <End Role="VidIshodHarakteristik" Type="ISPDnBDSQLModel.VidIshodHarakteristik" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnHarakteristikIshod" Type="ISPDnBDSQLModel.ISPDnHarakteristikIshod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VidIshodHarakteristik">
+        <PropertyRef Name="VidIshodHarakteristikID" />
+      </Principal>
+      <Dependent Role="ISPDnHarakteristikIshod">
+        <PropertyRef Name="VidIshodHarakteristikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK00">
+    <End Role="ISPDnIshodZashita" Type="ISPDnBDSQLModel.ISPDnIshodZashita" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnIshodZashita">
+        <PropertyRef Name="ISPDnIshodZashitaID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnIshodZashitaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK01">
+    <End Role="ISPDnKategory" Type="ISPDnBDSQLModel.ISPDnKategory" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnKategory">
+        <PropertyRef Name="ISPDnKategoryID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnKategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK02">
+    <End Role="ISPDnKlass" Type="ISPDnBDSQLModel.ISPDnKlass" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnKlass">
+        <PropertyRef Name="ISPDnKlassID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnKlassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK03">
+    <End Role="ISPDnObem" Type="ISPDnBDSQLModel.ISPDnObem" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnObem">
+        <PropertyRef Name="ISPDnObemID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnObemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK04">
+    <End Role="ISPDnTipSpecial" Type="ISPDnBDSQLModel.ISPDnTipSpecial" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnTipSpecial">
+        <PropertyRef Name="ISPDnTipSpecialID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnTipSpecialID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ISPDnOperator_FK05">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.OrgOperator" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="ISPDnOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieOpasnUgrozIS_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieOpasnUgrozIS" Type="ISPDnBDSQLModel.MnogieOpasnUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieOpasnUgrozIS">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieRealizUgroz_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieRealizUgroz" Type="ISPDnBDSQLModel.MnogieRealizUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieRealizUgroz">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieUgrozaActual_FK01">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieUgrozaActual" Type="ISPDnBDSQLModel.MnogieUgrozaActual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieUgrozaActual">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieVerUgrozIS_FK00">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieVerUgrozIS" Type="ISPDnBDSQLModel.MnogieVerUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ISPDnOperator">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Principal>
+      <Dependent Role="MnogieVerUgrozIS">
+        <PropertyRef Name="ISPDnOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KategoryPdBio_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.OrgOperator" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KategoryPdBio" Type="ISPDnBDSQLModel.KategoryPdBio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="KategoryPdBio">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KategoryPdDop_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.OrgOperator" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KategoryPdDop" Type="ISPDnBDSQLModel.KategoryPdDop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="KategoryPdDop">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KategorySubj_FK00">
+    <End Role="OrgOperator" Type="ISPDnBDSQLModel.OrgOperator" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KategorySubj" Type="ISPDnBDSQLModel.KategorySubj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrgOperator">
+        <PropertyRef Name="OrgOperatorID" />
+      </Principal>
+      <Dependent Role="KategorySubj">
+        <PropertyRef Name="OrgOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieOpasnUgrozIS_FK01">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.NazvanieUgroz" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieOpasnUgrozIS" Type="ISPDnBDSQLModel.MnogieOpasnUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieOpasnUgrozIS">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieOpasnUgrozIS_FK02">
+    <End Role="OpasnostUgroz" Type="ISPDnBDSQLModel.OpasnostUgroz" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieOpasnUgrozIS" Type="ISPDnBDSQLModel.MnogieOpasnUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OpasnostUgroz">
+        <PropertyRef Name="OpasnostUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieOpasnUgrozIS">
+        <PropertyRef Name="OpasnostUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieRealizUgroz_FK01">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.NazvanieUgroz" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieRealizUgroz" Type="ISPDnBDSQLModel.MnogieRealizUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieRealizUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieRealizUgroz_FK02">
+    <End Role="RealizationUgroz" Type="ISPDnBDSQLModel.RealizationUgroz" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieRealizUgroz" Type="ISPDnBDSQLModel.MnogieRealizUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RealizationUgroz">
+        <PropertyRef Name="RealizationUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieRealizUgroz">
+        <PropertyRef Name="RealizationUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieUgrozaActual_FK02">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.NazvanieUgroz" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieUgrozaActual" Type="ISPDnBDSQLModel.MnogieUgrozaActual" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieUgrozaActual">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieVerUgrozIS_FK01">
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.NazvanieUgroz" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieVerUgrozIS" Type="ISPDnBDSQLModel.MnogieVerUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NazvanieUgroz">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieVerUgrozIS">
+        <PropertyRef Name="NazvanieUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MnogieVerUgrozIS_FK02">
+    <End Role="VeroyatnostUgroz" Type="ISPDnBDSQLModel.VeroyatnostUgroz" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MnogieVerUgrozIS" Type="ISPDnBDSQLModel.MnogieVerUgrozIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VeroyatnostUgroz">
+        <PropertyRef Name="VeroyatnostUgrozID" />
+      </Principal>
+      <Dependent Role="MnogieVerUgrozIS">
+        <PropertyRef Name="VeroyatnostUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="NazvanieUgroz_FK00">
+    <End Role="VidUgroz" Type="ISPDnBDSQLModel.VidUgroz" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="NazvanieUgroz" Type="ISPDnBDSQLModel.NazvanieUgroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VidUgroz">
+        <PropertyRef Name="VidUgrozID" />
+      </Principal>
+      <Dependent Role="NazvanieUgroz">
+        <PropertyRef Name="VidUgrozID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="aspnet_UsersInRoles">
+    <End Role="aspnet_Roles" Type="ISPDnBDSQLModel.aspnet_Roles" Multiplicity="*" />
+    <End Role="aspnet_Users" Type="ISPDnBDSQLModel.aspnet_Users" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieCeliOtdel">
+    <End Role="CeliObrabotkiPD" Type="ISPDnBDSQLModel.CeliObrabotkiPD" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieHarakteristikiIshod">
+    <End Role="ISPDnHarakteristikIshod" Type="ISPDnBDSQLModel.ISPDnHarakteristikIshod" Multiplicity="*" />
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieISPDnKategoryPD">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <End Role="KategoryPd" Type="ISPDnBDSQLModel.KategoryPd" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieISPDnRabotniki">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <End Role="RabotnikiOrg" Type="ISPDnBDSQLModel.RabotnikiOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieKategoriSpecOtdel">
+    <End Role="KategoryPdSpec" Type="ISPDnBDSQLModel.KategoryPdSpec" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieKategoryBioOtdel">
+    <End Role="KategoryPdBio" Type="ISPDnBDSQLModel.KategoryPdBio" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieKategoryDopOtdel">
+    <End Role="KategoryPdDop" Type="ISPDnBDSQLModel.KategoryPdDop" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieKategoryPdOtdel">
+    <End Role="KategoryPd" Type="ISPDnBDSQLModel.KategoryPd" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieKategoryPdSpecISPDn">
+    <End Role="ISPDnOperator" Type="ISPDnBDSQLModel.ISPDnOperator" Multiplicity="*" />
+    <End Role="KategoryPdSpec" Type="ISPDnBDSQLModel.KategoryPdSpec" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieOtdelSubj">
+    <End Role="KategorySubj" Type="ISPDnBDSQLModel.KategorySubj" Multiplicity="*" />
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+  </Association>
+  <Association Name="MnogieRabotnikiOtdel">
+    <End Role="OtdelOrg" Type="ISPDnBDSQLModel.OtdelOrg" Multiplicity="*" />
+    <End Role="RabotnikiOrg" Type="ISPDnBDSQLModel.RabotnikiOrg" Multiplicity="*" />
+  </Association>
+</Schema>

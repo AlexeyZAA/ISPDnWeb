@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageAudit.master.cs" Inherits="WebApplicationISPDn.MasterPageAudit" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <!-- Вставка раздела заголовка аудита -->
+    <asp:ContentPlaceHolder ID="headAudit" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .style1
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <form id="Form2" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h2>
+                    Портал аудита обработки персональных данных
+                </h2>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Войти</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Добро пожаловать <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Выход" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Домашняя"/>
+                        <asp:MenuItem NavigateUrl="~/MemberPages/WebFormAuditFirst.aspx" Text="Аудит"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="О программе"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+
+        <div class="main">
+            <!--   Меню вертекальное  -->
+            <asp:Menu ID="NavigationMenuV" runat="server" CssClass="menuV" EnableViewState="false"
+                IncludeStyleBlock="false" Width="150px">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Шаг 1" />
+                    <asp:MenuItem NavigateUrl="~/MemberPages/WebFormAuditFirst.aspx" Text="Шаг 2" />
+                    <asp:MenuItem NavigateUrl="~/About.aspx" Text="Шаг 3" />
+                </Items>
+            </asp:Menu>
+            <!--   Меню вертекальное  -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderAudit" runat="server">
+
+        </asp:ContentPlaceHolder>
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+    
+    <div class="footer"></div>
+    </form>
+</body>
+</html>
+

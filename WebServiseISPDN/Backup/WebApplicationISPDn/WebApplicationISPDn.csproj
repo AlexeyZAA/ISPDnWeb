@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16987D17-21FB-4A75-9374-D4A583855AAB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplicationISPDn</RootNamespace>
+    <AssemblyName>WebApplicationISPDn</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.8.4.31, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DotNetZip-v1.8\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Tasks.v4.0" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="DotNetZip-v1.8\Ionic.Zip.dll" />
+    <Content Include="DotNetZip-v1.8\Readme.txt" />
+    <Content Include="ExportToRTF.dll" />
+    <Content Include="imgLog\Эмблема-на-форму.jpg" />
+    <Content Include="imgLog\ЭмблемаFin.jpg" />
+    <Content Include="MemberPages\WebFormStep2Otdel.aspx" />
+    <Content Include="MemberPages\WebFormStep4Doc.aspx" />
+    <Content Include="MemberPages\WebFormStep3Actualnost.aspx" />
+    <Content Include="MemberPages\WebFormStep3Opasnost.aspx" />
+    <Content Include="MemberPages\WebFormStep3Veroyatnost.aspx" />
+    <Content Include="MemberPages\WebFormAuditFirst.aspx" />
+    <Content Include="MemberPages\WebFormStep2ISPDn.aspx" />
+    <Content Include="MemberPages\WebFormStep3IshodZashita.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebFormStep2Dop.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClassGetDataBD.cs" />
+    <Compile Include="ClassGlobalVar.cs" />
+    <Compile Include="ClassReplaceMetod.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\MasterPageAudit.Master.cs">
+      <DependentUpon>MasterPageAudit.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\MasterPageAudit.Master.designer.cs">
+      <DependentUpon>MasterPageAudit.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep2Otdel.aspx.cs">
+      <DependentUpon>WebFormStep2Otdel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep2Otdel.aspx.designer.cs">
+      <DependentUpon>WebFormStep2Otdel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep4Doc.aspx.cs">
+      <DependentUpon>WebFormStep4Doc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep4Doc.aspx.designer.cs">
+      <DependentUpon>WebFormStep4Doc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3Actualnost.aspx.cs">
+      <DependentUpon>WebFormStep3Actualnost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3Actualnost.aspx.designer.cs">
+      <DependentUpon>WebFormStep3Actualnost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3Opasnost.aspx.cs">
+      <DependentUpon>WebFormStep3Opasnost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3Opasnost.aspx.designer.cs">
+      <DependentUpon>WebFormStep3Opasnost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3Veroyatnost.aspx.cs">
+      <DependentUpon>WebFormStep3Veroyatnost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3Veroyatnost.aspx.designer.cs">
+      <DependentUpon>WebFormStep3Veroyatnost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormAuditFirst.aspx.cs">
+      <DependentUpon>WebFormAuditFirst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormAuditFirst.aspx.designer.cs">
+      <DependentUpon>WebFormAuditFirst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep2ISPDn.aspx.cs">
+      <DependentUpon>WebFormStep2ISPDn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep2ISPDn.aspx.designer.cs">
+      <DependentUpon>WebFormStep2ISPDn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3IshodZashita.aspx.cs">
+      <DependentUpon>WebFormStep3IshodZashita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\WebFormStep3IshodZashita.aspx.designer.cs">
+      <DependentUpon>WebFormStep3IshodZashita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelISPDn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelISPDn.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormStep2Dop.aspx.cs">
+      <DependentUpon>WebFormStep2Dop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormStep2Dop.aspx.designer.cs">
+      <DependentUpon>WebFormStep2Dop.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MemberPages\MasterPageAudit.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ModelISPDn.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelISPDn.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MemberPages\LoadFiles\AktKlassISPDn.doc" />
+    <None Include="MemberPages\LoadFiles\PrikazKlassISPDn.doc" />
+    <None Include="MemberPages\Sabl\Audit\sMinimizationZatratNaZashitu.dot" />
+    <None Include="MemberPages\Sabl\Audit\sOtchetPoAuditu.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalRazovogoPropuska.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalRegistrZaprosovSubject.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaKluthevihNositeley.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaKriptosredstv.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaNositeley.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaParoley.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaProverokStolb.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaProverokTable.dot" />
+    <None Include="MemberPages\Sabl\Gurnal\sGurnalUchetaSredstvZachit.dot" />
+    <None Include="MemberPages\Sabl\Instruction\sInstrukciaPolzovateleyLVS.dot" />
+    <None Include="MemberPages\Sabl\Instruction\sInstrukciyaAdmina.dot" />
+    <None Include="MemberPages\Sabl\Instruction\sInstrukciyaRezervirovaniia.dot" />
+    <None Include="MemberPages\Sabl\Instruction\sInstruktionAntivirusParol.dot" />
+    <None Include="MemberPages\Sabl\Instruction\sInstruktsiyaUchetaNosteley.dot" />
+    <None Include="MemberPages\Sabl\KlassISPDn\sAktKlassISPDn.dot" />
+    <None Include="MemberPages\Sabl\KlassISPDn\sPrikazKlassISPDn.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelNaruschitel.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelUgrozARMnoInet.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelUgrozARMyesInet.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelUgrozLVSnoInet.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelUgrozLVSyesInet.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelUgrozRasprednoInet.dot" />
+    <None Include="MemberPages\Sabl\Modeli\sModelUgrozRaspredyesInet.dot" />
+    <None Include="MemberPages\Sabl\Perechni\sPerechenASystem.dot" />
+    <None Include="MemberPages\Sabl\Perechni\sPerechenKonfidencialPDn.dot" />
+    <None Include="MemberPages\Sabl\Perechni\sPerechenSredstvZashit.dot" />
+    <None Include="MemberPages\Sabl\Perechni\sPerehenLicDopushenServeriArhiv.dot" />
+    <None Include="MemberPages\Sabl\Plan\sPlanMeropriyatiPoZashite.dot" />
+    <None Include="MemberPages\Sabl\Plan\sPlanVnutrennikhProverokZachitaPD.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sAktUnichtozheniyaPDn.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sPologenieOrazgranicheniiPravDostupa.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sPolozhenieObabotkaPDnObshee.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sPolozhenieZashchiteKI.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sPoriadokRezervKopir.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sRukovodstvoAdministratoraISPDn.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sRukovodstvoPolzovatelyaISPDn.dot" />
+    <None Include="MemberPages\Sabl\Pologenie\sUdaleniePDizISPDn.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikaziObiazatelstvoKonfidencial.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazMeropriyatiPoZashite.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazNaznachenieOtvetstvenZaBezopasnost.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazNaznachenieOtvetstvenZaTehnZahituKripto.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazNaznacheniyaAdminaBezopasnosty.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazObElektronnomGurnale.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazOtvetstvenZaObrabotku.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazVidileniePomesheniKonfidencial.dot" />
+    <None Include="MemberPages\Sabl\Prikaz\sPrikazVidilenPomesheniObrabotkiPD.dot" />
+    <None Include="MemberPages\Sabl\Soglasie\sSoglasieNaObrabotkuOtziv.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sAktUstanovkiSZI.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sKoncepciaInfBezopasnosti.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sKontrolZona.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sMatritsaDostupa.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sPolitikaInformBezopasnPD.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sProektNaBezopasnostPD.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sTehnicheskiPasportISPDn.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sTehnicheskiPasportObjectaInf.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sTehZadaniePD.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sTopologiISPDn.dot" />
+    <None Include="MemberPages\Sabl\TehZashita\sZakluchenieOvozmognostiEkspluatacii.dot" />
+    <None Include="MemberPages\Sabl\UvedomleniePD\sUvedomlenie2-22.dot" />
+    <None Include="MemberPages\Sabl\UvedomleniePD\sUvedomleniePortal.dot" />
+    <None Include="MemberPages\Sabl\UvedomleniePD\sUvedomleniePost.dot" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1201</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
